@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darpan</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/upgraph.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+  
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <strong>DARPAN</strong>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <nav class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#test">Test</a>
+      <a href="#article">Topics</a>
+      <a href="#graph">Data</a>
+      <a href="#disclaimer">Disclaimer</a>
+    </nav>
+  </header>
+
+
+  <div class="main">
+  <section class="hero" id="hero">
+    <h1 class="glow">DARPAN</h1>
+    <p>Let's Talk Openly - No Shame, Just Awareness</p>
+  </section>
+
+
+  <section id="about" class="about">
+    <div class="about-text">
+      <h2>Why Sex Education Matters</h2>
+      <p>Sex education promotes understanding, confidence, and health. It's not just about sex — it’s about
+        respect, consent, hygiene, and body awareness.</p>
+    </div>
+    <video controls>
+      <source src="video/Avr.mp4" type="video/mp4">
+
+    </video>
+
+  </section>
+
+  <!-- Psycometruic section -->
+  <section class="cta" id="test">
+    <h2>Ready to Check Your Awareness?</h2>
+    <p>Take our short test to know more about your understanding of sexual health.</p><br>
+    <button onclick="openTest()">Psychometric Test</button>
+  </section>
+
+  <!-- Article section -->
+  <section class="article-container" id="article">
+    <h2 class="article-title">Topics we Cover</h2>
+
+    <!-- Cards Grid -->
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card" onclick="openTopic('sti')">
+                <img src="images/STIs.jpg" alt="STI Logo" class="card-image">
+                <h2 class="card-title">Sexually transmitted infections</h2>
+                <p class="card-description">
+                    Sexually transmitted infections (STIs), also known as sexually transmitted diseases (STDs), are infections that are commonly spread through sexual activity. Understanding and preventing STIs is crucial for maintaining sexual health and well‑being.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card" onclick="openTopic('escort')">
+                <img src="images/hiv.jpg" alt="STI Logo" class="card-image">
+                <h2 class="card-title">Escort</h2>
+                <p class="card-description">
+                    An escort is a person paid to offer company, which may include emotional or physical services. Unlike prostitution, escorting is seen as more private and professional. With urban loneliness and internet access, this trend is rising fast and changing how people see relationships and sex.
+             </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card" onclick="openTopic('porn')">
+                <img src="images/porn.jpg" alt="PORN" class="card-image">
+                <h2 class="card-title">PORN</h2>
+                <p class="card-description">
+                    The term ‘porn’ is short for pornography, which refers to video or print material intended for
+                    sexual gratification. An example of this is a magazine featuring naked women designed for the sexual
+                    pleasure of...
+                </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card" onclick="openTopic('sex_health_products')">
+                <img src="images/product.jpg" alt="sex products" class="card-image">
+                <h2 class="card-title">Sex Health Products</h2>
+                <p class="card-description">
+                    Sex health products are tools and items designed to support and enhance intimate wellness and sexual activity. These can range from condoms and lubricants to sex toys, aiding in safer and more pleasurable sexual experiences.
+                </p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card" onclick="openTopic('satisfaction_sex_positions')">
+                <img src="images/satisfacttion.jpg" alt="sex satisfaction_sex_positions" class="card-image">
+                <h2 class="card-title">Satisfaction Meaning & Sex Positions</h2>
+                <p class="card-description">
+                    Satisfaction in sex is about finding mutual pleasure, comfort, and connection between partners. Understanding different sex positions can help couples explore intimacy and deepen their emotional and physical bond.
+                </p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card" onclick="openPage()">
+                <img src="images/truth.jpg" alt="truth about sex" class="card-image">
+                <h2 class="card-title">Uncover the Truth About Sex</h2>
+                <p class="card-description">
+                    Exploring the truth about sex is vital for making informed decisions. Understanding myths, gaining accurate knowledge, and discussing openly can help build a healthier and more confident approach to intimacy.
+                </p>
+            </div>
+
+        </div>
+  </section>
+
+
+  <!-- Graph Section -->
+<section class="graph-section" id="graph">
+  <div class="graph-intro">
+    <h1>CHART TYPES</h1>
+    <p>Click on any chart type below to see an example</p>
+  </div>
+
+  <div class="graph-buttons">
+    <button onclick="changeDataset(1)">Porn</button>
+    <button onclick="changeDataset(2)">Escorts</button>
+    <button onclick="changeDataset(3)">Products</button>
+  </div>
+
+  <div class="graph-grid" id="chartCards"></div>
+
+  <div class="graph-modal" id="chartModal">
+    <div class="graph-modal-content">
+      <span class="graph-close-btn" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle">Chart Example</h2>
+      <img id="modalImage" src="" alt="Chart Example">
+    </div>
+  </div>
+</section>
+
+  <br>
+
+
+  <!-- Disclaimer Section -->
+  <section class="disclaimer-section" id="disclaimer">
+    <div class="disclaimer-section-container">
+      <div class="disclaimer-text-content">
+        <h2 class="disclaimer-heading">Disclaimer</h2>
+        <p class="disclaimer-paragraph-text">
+          This site offers educational content on sex education, health, body positivity, and safety. It is not a
+          substitute for medical, psychological, or legal advice.
+        </p>
+        <p class="disclaimer-paragraph-text">
+          We aim to promote awareness and understanding around sex education, sexual health, body positivity, and
+          personal safety in a respectful and inclusive manner. However, individual needs and situations vary, and we
+          encourage users to consult qualified professionals for personalized guidance.
+        </p>
+        <p class="disclaimer-paragraph-text">
+          This platform is designed to be safe and supportive, but due to the sensitive nature of the topics discussed,
+          viewer discretion is advised. If you are under 18, we recommend using this site with the guidance of a trusted
+          adult.
+        </p>
+        <p class="disclaimer-paragraph-text">
+          We do not endorse or promote any specific product, service, or ideology. All resources linked or mentioned are
+          for reference only and belong to their respective owners.
+        </p>
+        <p>
+          If any content on this site causes discomfort or raises concern, please contact us immediately so we can take
+          appropriate action.
+        </p>
+      </div>
+      <div class="disclaimer-image-wrapper">
+        <img src="images/ed.png" alt="Sex Education & Awareness" class="disclaimer-illustration">
+      </div>
+    </div>
+  </section>
+
+  </div>
+
+  <!-- footer -->
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3 class="footer-heading">Contact</h3>
+        <p class="contact-phone">+91 417 927 2921</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon-link"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+          <a href="#" class="social-icon-link"><img src="images/insta.svg" alt="Instagram Icon"></a>
+          <a href="#" class="social-icon-link"><img src="images/whatsapp.svg" alt="WhatsApp Icon"></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="footer-heading">Quick Links</h3>
+        <ul class="footer-nav-list">
+          <li><a href="#" class="footer-nav-link">Home</a></li>
+          <li><a href="#about" class="footer-nav-link">About</a></li>
+          <li><a href="" class="footer-nav-link">Services</a></li>
+          <li><a href="#" class="footer-nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="footer-heading">Darpan &copy; 2025</h3>
+        <p class="footer-rights-text">&copy; 2025 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script/navbar.js"></script>
+  <script src="script/demo_chart.js"></script>
+  <script src="script/script.js"></script>
+  <script src="script/graph.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Topic Details</title>
+  <link rel="stylesheet" href="css/porn.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/info.css" />
+</head>
+<body>
+    <!-- header -->
+     <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <strong>DARPAN</strong>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <nav class="nav-links">
+      <a href="index.html#hero">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#test">Test</a>
+      <a href="index.html#article">Topics</a>
+      <a href="index.html#graph">Data</a>
+      <a href="index.html#disclaimer">Disclaimer</a>
+    </nav>
+  </header>
+
+  <button id="toggle-lang" style="margin: 20px; padding: 10px 16px; background-color: #2f7c7b; color: white; border: none; border-radius: 6px; cursor: pointer;">
+  Switch to नेपाली
+  </button>
+
+
+  <!-- Content section for displaying topic details -->
+
+  <div id="content">
+    <img id="topic-image" src="" alt="" />
+    <h1 id="topic-title"></h1>
+    <div id="topic-content"></div>
+  </div>
+
+  <!-- Footer section -->
+
+   <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3 class="footer-heading">Contact</h3>
+        <p class="contact-phone">+91 417 927 2921</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon-link"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+          <a href="#" class="social-icon-link"><img src="images/insta.svg" alt="Instagram Icon"></a>
+          <a href="#" class="social-icon-link"><img src="images/whatsapp.svg" alt="WhatsApp Icon"></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="footer-heading">Quick Links</h3>
+        <ul class="footer-nav-list">
+          <li><a href="#" class="footer-nav-link">Home</a></li>
+          <li><a href="#" class="footer-nav-link">About</a></li>
+          <li><a href="#" class="footer-nav-link">Services</a></li>
+          <li><a href="#" class="footer-nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3 class="footer-heading">Darpan &copy; 2025</h3>
+        <p class="footer-rights-text">&copy; 2025 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript files. data1.js (English) and data-ne.js (Nepali) must be present. -->
+  <script src="assests/data.js"></script>
+  <script src="assests/data-ne.js"></script>
+
+  <script>
+    // This script manages the display of topic content and language switching for the page.
+
+    // --- Global State for Language ---
+    // 'false' means English, 'true' means Nepali.
+    let isNepali = false;
+
+    // --- Translations for Static Elements ---
+    // This object maps original English text to its Nepali translation.
+    const staticTranslations = {
+      // Header Navigation Links
+      "Home": "गृह",
+      "About": "बारेमा",
+      "Test": "परीक्षा",
+      "Topics": "विषयहरू",
+      "Data": "डाटा",
+      "Disclaimer": "अस्वीकरण",
+
+      // Footer Headings and Text
+      "Contact": "सम्पर्क",
+      "Quick Links": "द्रुत लिङ्कहरू",
+      "Services": "सेवाहरू",
+      "Darpan &copy; 2025": "दर्पण &copy; २०२५", // Using HTML entity for copyright
+      "&copy; 2025 All rights reserved.": "&copy; २०२५ सबै अधिकार सुरक्षित।",
+
+      // Content Area Messages
+      "No data found for the selected topic.": "चयन गरिएको विषयका लागि कुनै डाटा फेला परेन।",
+
+      // Language Toggle Button Text
+      "Switch to नेपाली": "Switch to नेपाली",
+      "Switch to English": "Switch to English",
+    };
+
+    /**
+     * Updates the main content section (topic title, image, and content)
+     * using data from the specified language object.
+     * @param {object} dataObject - The topic data object (e.g., topicData for English, topicDataNepali for Nepali).
+     */
+    function updateContent(dataObject) {
+      const topicId = localStorage.getItem("selectedTopic");
+      const currentTopic = dataObject[topicId];
+
+      const topicTitleElement = document.getElementById("topic-title");
+      const topicImageElement = document.getElementById("topic-image");
+      const topicContentElement = document.getElementById("topic-content");
+      const mainContentDiv = document.getElementById("content");
+
+      if (currentTopic) {
+        topicTitleElement.textContent = currentTopic.title;
+        topicImageElement.src = currentTopic.image;
+        topicImageElement.alt = currentTopic.title;
+        topicContentElement.innerHTML = currentTopic.content;
+      } else {
+        // If no data found for the topic, display a translated fallback message.
+        mainContentDiv.innerHTML = `<p>${isNepali ? staticTranslations["No data found for the selected topic."] : "No data found for the selected topic."}</p>`;
+      }
+    }
+
+    /**
+     * Translates the static text elements (navigation, footer, and other fixed text) on the page.
+     * It stores the original English text in data attributes to allow consistent switching back.
+     * The language toggle button is handled separately due to its dynamic nature.
+     * @param {string} lang - The target language ('en' for English, 'ne' for Nepali).
+     */
+    function translateStaticElements(lang) {
+      const elementsToTranslate = [
+        // Query all navigation links in the header
+        ...document.querySelectorAll('header .nav-links a'),
+        // Query all footer headings
+        ...document.querySelectorAll('.footer-heading'),
+        // Query all footer navigation links (targets the 'a' tags within the list)
+        ...document.querySelectorAll('.footer-nav-list a'),
+        // The copyright text in the footer
+        document.querySelector('.footer-rights-text')
+        // The language toggle button (document.getElementById('toggle-lang')) is handled separately
+      ];
+
+      elementsToTranslate.forEach(element => {
+        if (element) { // Ensure the element exists
+          let originalContentKey;
+
+          // Store original content only if not already stored
+          if (!element.hasAttribute('data-original-content-key')) {
+              // Determine the key based on innerHTML for copyright-like text, or textContent for plain text.
+              // This is crucial for matching the keys in staticTranslations.
+              if (element.classList.contains('footer-heading') || element.classList.contains('footer-rights-text')) {
+                originalContentKey = element.innerHTML.trim(); // Use innerHTML to preserve entities like &copy;
+              } else {
+                originalContentKey = element.textContent.trim(); // Use textContent for plain text
+              }
+              element.setAttribute('data-original-content-key', originalContentKey); // Store the key used for lookup
+              element.setAttribute('data-original-full-content', element.innerHTML); // Store the full original HTML/text for precise reversion
+          } else {
+              originalContentKey = element.getAttribute('data-original-content-key');
+          }
+
+          if (lang === 'ne') {
+            // If switching to Nepali, use the translation if available.
+            if (staticTranslations[originalContentKey]) {
+                // Apply translation using innerHTML for elements that originally contained HTML (like &copy;)
+                if (element.classList.contains('footer-heading') || element.classList.contains('footer-rights-text')) {
+                    element.innerHTML = staticTranslations[originalContentKey];
+                } else {
+                    element.textContent = staticTranslations[originalContentKey]; // For plain text elements
+                }
+            } else {
+                // Log a warning if a translation is missing for debugging purposes
+                console.warn(`No Nepali translation found for: "${originalContentKey}"`);
+            }
+          } else { // lang === 'en' (switching back to English)
+            // Revert to the stored original full content for precise English display
+            element.innerHTML = element.getAttribute('data-original-full-content');
+          }
+        }
+      });
+
+      // --- Explicit handling for the language toggle button ---
+      const toggleLangButton = document.getElementById('toggle-lang');
+      if (toggleLangButton) {
+          // The button's text changes to reflect the *next* language it will switch to.
+          if (lang === 'ne') {
+            // If the page is currently in Nepali, the button should say "Switch to English"
+            toggleLangButton.textContent = staticTranslations["Switch to English"];
+          } else {
+            // If the page is currently in English, the button should say "Switch to नेपाली"
+            toggleLangButton.textContent = staticTranslations["Switch to नेपाली"];
+          }
+      }
+    }
+
+
+    // --- Initialization on Page Load ---
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get the saved language preference from localStorage.
+      const savedLang = localStorage.getItem('appLang');
+      if (savedLang === 'ne') {
+          isNepali = true;
+      }
+
+      // Apply initial content and static element translations based on the determined language.
+      if (isNepali) {
+          updateContent(topicDataNepali);    // Load content from Nepali data.
+          translateStaticElements('ne');     // Translate static elements to Nepali.
+      } else {
+          updateContent(topicData);          // Load content from English data.
+          translateStaticElements('en');     // Translate static elements to English.
+      }
+
+      // --- Mobile Menu Toggle Event Listener ---
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+
+      // --- Language Toggle Button Event Listener ---
+      const toggleLangButton = document.getElementById('toggle-lang');
+      toggleLangButton.addEventListener('click', () => {
+        isNepali = !isNepali; // Toggle the language state.
+        localStorage.setItem('appLang', isNepali ? 'ne' : 'en'); // Save the new state in localStorage.
+
+        if (isNepali) {
+          updateContent(topicDataNepali);   // Load content from Nepali data.
+          translateStaticElements('ne');    // Translate static elements to Nepali.
+        } else {
+          updateContent(topicData);         // Load content from English data.
+          translateStaticElements('en');    // Translate static elements back to English.
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

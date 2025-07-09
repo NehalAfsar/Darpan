@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Psychometric Test - Full Screen</title>
+  <!-- Google Fonts and Material Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    /* ===== CSS Variables and Reset ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #009688;
+      --primary-hover: #00796B;
+      --surface: #fff;
+      --background: #FFF7DC;
+      --border: #dadce0;
+      --text-primary: #202124;
+      --text-secondary: #5f6368;
+      --text-disabled: #9aa0a6;
+      --error: #ea4335;
+      --shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+    }
+
+    body {
+      font-family: 'Google Sans', 'Roboto', Arial, sans-serif;
+      background: var(--background);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    /* ===== Layout and Card Styles ===== */
+    .container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .form-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 24px;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .form-icon {
+      background: var(--primary);
+      color: #fff;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 16px;
+      flex-shrink: 0;
+    }
+
+    .form-icon .material-icons {
+      font-size: 28px;
+    }
+
+    .form-title {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 1.3;
+      color: var(--text-primary);
+    }
+
+    .form-description {
+      margin-top: 8px;
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+
+    .form-card {
+      background: var(--surface);
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .section-header {
+      background: var(--primary);
+      color: white;
+      padding: 12px 16px;
+      border-radius: 8px 8px 0 0;
+      margin-bottom: 0;
+      font-size: 18px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 16px;
+      color: var(--text-primary);
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ===== Form Elements ===== */
+    .form-group {
+      margin-bottom: 24px;
+    }
+
+    .form-label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    .required::after {
+      content: " *";
+      color: var(--error);
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: inherit;
+      transition: border-color .2s, box-shadow .2s;
+      background: #fff;
+    }
+
+    .form-input:focus {
+      border-color: var(--primary);
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(0, 150, 136, 0.2);
+    }
+
+    /* ===== Radio Button Styles ===== */
+    .radio-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .radio-option {
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      cursor: pointer;
+      margin: 4px 0;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    .radio-option:hover {
+      background-color: rgba(0, 150, 136, 0.08);
+    }
+
+    .radio-option input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .radio-custom {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--text-disabled);
+      border-radius: 50%;
+      margin-right: 12px;
+      flex-shrink: 0;
+      transition: border-color .2s;
+    }
+
+    .radio-option:hover .radio-custom,
+    .radio-option input[type="radio"]:checked+.radio-custom {
+      border-color: var(--primary);
+    }
+
+    .radio-option input[type="radio"]:checked+.radio-custom::after {
+      content: "";
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 10px;
+      height: 10px;
+      background: var(--primary);
+      border-radius: 50%;
+    }
+
+    /* ===== Updated Question Section ===== */
+    .question {
+      background: var(--surface);
+      border-radius: 0 0 8px 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .question-title {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+
+    /* ===== Button Styles ===== */
+    .btn-group {
+      display: flex;
+      gap: 16px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background .2s, box-shadow .2s;
+      font-family: inherit;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      box-shadow: 0 1px 3px rgba(60, 64, 67, 0.4);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--primary);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(0, 150, 136, 0.04);
+    }
+
+    /* ===== Result Box Styles ===== */
+    #result {
+      margin-top: 32px;
+      padding: 24px;
+      background: #e8f0fe;
+      border-radius: 8px;
+      text-align: center;
+      display: none;
+    }
+
+    .result-title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 12px;
+      color: var(--primary);
+    }
+
+    .result-content {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .personality-type {
+      display: inline-block;
+      background: #009688;
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 16px;
+      margin-top: 8px;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    /* Progress Bar */
+    .progress-container {
+      width: 100%;
+      background-color: #f1f1f1;
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+
+    .progress-bar {
+      height: 8px;
+      background-color: var(--primary);
+      border-radius: 4px;
+      width: 0%;
+      transition: width 0.3s;
+    }
+
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+    }
+
+    .popup-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .popup-box button {
+      margin-top: 20px;
+      padding: 8px 20px;
+      border: none;
+      background-color: #009688;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .blur {
+      filter: blur(5px);
+    }
+
+
+    /* ===== Responsive Styles ===== */
+    @media (max-width: 600px) {
+      .form-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .form-icon {
+        margin-bottom: 16px;
+      }
+
+      .form-title {
+        font-size: 24px;
+      }
+
+      .btn-group {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        padding: 14px 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main-content" class="container">
+    <!-- ===== Header Section ===== -->
+    <div class="form-header">
+      <div class="form-icon">
+        <i class="material-icons">psychology_alt</i>
+      </div>
+      <div>
+        <h1 class="form-title" id="mainTitle">Psychometric Assessment</h1>
+        <!-- Language Toggle Button -->
+        <button type="button" id="langToggle" class="btn btn-secondary" style="float:right; margin-bottom:16px;">
+          नेपाली
+        </button>
+        <p class="form-description" id="mainDescription">
+          This assessment helps evaluate various aspects of psychological well-being.
+        </p>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- ===== Main Form ===== -->
+    <form id="testForm">
+      <!-- Questions will be dynamically inserted here -->
+    </form>
+
+    <!-- Buttons for Submit and Reset -->
+    <div class="btn-group">
+      <button type="button" id="prevBtn" class="btn btn-secondary" style="display: none;">
+        <i class="material-icons" style="margin-right: 8px;">arrow_back</i>
+        <span id="prevText">Previous</span>
+      </button>
+      <button type="button" id="nextSectionBtn" class="btn btn-primary">
+        <span id="nextSectionText">Next Section</span>
+        <i class="material-icons" style="margin-left: 8px;">arrow_forward</i>
+      </button>
+      <button type="button" id="submitBtn" class="btn btn-primary" style="display: none;">
+        <i class="material-icons" style="margin-right: 8px;">send</i>
+        <span id="submitText">Submit Assessment</span>
+
+      </button>
+      <button type="button" id="backToInfoBtn" class="btn btn-secondary" style="display: none;">
+        <i class="material-icons" style="margin-right: 8px;">person</i>
+        Back to Info
+      </button>
+    </div>
+   </div>
+  </div>
+    <!-- Popup -->
+    <div class="popup-overlay" id="popup">
+      <div class="popup-box">
+        <h3 class="result-title" id="resultTitle">Your Assessment Results</h3>
+        <div class="result-content">
+          <p id="resultText"></p>
+          <div id="assessmentResult" class="personality-type"></div>
+          <button onclick="closePopup()">Close</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      let currentLang = 'en';
+      let questionData = [];
+      let currentSectionIndex = 0;
+      let sections = [];
+      let answers = {};
+
+      const translations = {
+        en: {
+          mainTitle: "Psychometric Assessment",
+          mainDescription: "This assessment helps evaluate various aspects of psychological well-being.",
+          prev: "Previous",
+          nextSection: "Next Section",
+          submit: "Submit Assessment",
+          reset: "Clear Form",
+          resultTitle: "Your Assessment Results",
+          sectionComplete: "Please complete all questions in this section before proceeding.",
+          allComplete: "Please answer all questions before submitting.",
+          submitSuccess: "Submitted successfully!",
+          riskLevel: "Level"
+        },
+        ne: {
+          mainTitle: "मनोवैज्ञानिक मूल्यांकन",
+          mainDescription: "यो मूल्यांकनले मनोवैज्ञानिक स्वास्थ्यका विभिन्न पक्षहरू मूल्यांकन गर्न मद्दत गर्दछ।",
+          prev: "अघिल्लो",
+          nextSection: "अर्को खण्ड",
+          submit: "मूल्यांकन पेश गर्नुहोस्",
+          reset: "फारम खाली गर्नुहोस्",
+          resultTitle: "तपाईंको मूल्यांकन नतिजा",
+          sectionComplete: "कृपया अगाडि बढ्नु अघि यस खण्डका सबै प्रश्नहरू पूरा गर्नुहोस्।",
+          allComplete: "पेश गर्नु अघि कृपया सबै प्रश्नहरूको उत्तर दिनुहोस्।",
+          submitSuccess: "सफलतापूर्वक पेश गरियो!",
+          riskLevel: "स्तर"
+        }
+      };
+
+      async function loadQuestions() {
+        const res = await fetch('female.json');
+        const data = await res.json();
+        questionData = data;
+
+        sections = [];
+        let currentSection = null;
+
+        data.forEach(q => {
+          if (q.header) {
+            if (currentSection) sections.push(currentSection);
+            currentSection = { header: q.header, questions: [] };
+          } else if (currentSection) {
+            currentSection.questions.push(q);
+          }
+        });
+
+        if (currentSection) sections.push(currentSection);
+        updateUI();
+      }
+
+      function updateUI() {
+        const form = document.getElementById('testForm');
+        form.innerHTML = '';
+
+        document.getElementById('mainTitle').innerText = translations[currentLang].mainTitle;
+        document.getElementById('mainDescription').innerText = translations[currentLang].mainDescription;
+        document.getElementById('prevText').innerText = translations[currentLang].prev;
+        document.getElementById('nextSectionText').innerText = translations[currentLang].nextSection;
+        document.getElementById('submitText').innerText = translations[currentLang].submit;
+        document.getElementById('resultTitle').innerText = translations[currentLang].resultTitle;
+
+        const section = sections[currentSectionIndex];
+
+        const headerDiv = document.createElement('div');
+        headerDiv.className = 'section-header';
+        headerDiv.innerText = section.header[currentLang];
+        form.appendChild(headerDiv);
+
+        // Numbering: 1-50 global, 10 per section
+        let globalIndex = 0;
+        for (let i = 0; i < currentSectionIndex; i++) {
+          globalIndex += sections[i].questions.length;
+        }
+
+        section.questions.forEach((q, index) => {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'question';
+
+          const questionText = document.createElement('p');
+          questionText.className = 'question-title';
+          questionText.innerText = `${globalIndex + index + 1}. ${q[`question_${currentLang}`]}`;
+          wrapper.appendChild(questionText);
+
+          const optionsContainer = document.createElement('div');
+          optionsContainer.className = 'radio-group';
+
+          q.options.forEach((opt, i) => {
+            const label = document.createElement('label');
+            label.className = 'radio-option';
+
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = `q${q.id}`;
+            input.value = i;
+            input.setAttribute('data-label', ['a', 'b', 'c', 'd'][i]);
+            input.setAttribute('data-text', opt[currentLang]);
+
+            if (answers[q.id] && answers[q.id].value == i) {
+              input.checked = true;
+            }
+
+            const radioCustom = document.createElement('span');
+            radioCustom.className = 'radio-custom';
+
+            label.appendChild(input);
+            label.appendChild(radioCustom);
+            label.appendChild(document.createTextNode(opt[currentLang]));
+            optionsContainer.appendChild(label);
+          });
+
+          wrapper.appendChild(optionsContainer);
+          form.appendChild(wrapper);
+        });
+
+        updateProgressBar();
+
+        document.getElementById('prevBtn').style.display = currentSectionIndex > 0 ? 'flex' : 'none';
+        document.getElementById('submitBtn').style.display = currentSectionIndex === sections.length - 1 ? 'flex' : 'none';
+        document.getElementById('nextSectionBtn').style.display = currentSectionIndex < sections.length - 1 ? 'flex' : 'none';
+
+        const backBtn = document.getElementById('backToInfoBtn');
+        if (backBtn) {
+          backBtn.style.display = currentSectionIndex === sections.length - 1 ? 'flex' : 'none';
+        }
+      }
+
+      function updateProgressBar() {
+        const progress = ((currentSectionIndex + 1) / sections.length) * 100;
+        document.getElementById('progressBar').style.width = `${progress}%`;
+      }
+
+      function saveCurrentSectionAnswers() {
+        const section = sections[currentSectionIndex];
+        let allAnswered = true;
+
+        section.questions.forEach(q => {
+          const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
+          if (selected) {
+            answers[q.id] = {
+              value: parseInt(selected.value),
+              text: selected.getAttribute('data-text'),
+              label: selected.getAttribute('data-label')
+            };
+          } else {
+            allAnswered = false;
+          }
+        });
+
+        return allAnswered;
+      }
+
+      document.getElementById('langToggle').addEventListener('click', () => {
+        currentLang = currentLang === 'en' ? 'ne' : 'en';
+        document.getElementById('langToggle').innerText = currentLang === 'en' ? 'नेपाली' : 'English';
+        updateUI();
+      });
+
+      document.getElementById('prevBtn').addEventListener('click', () => {
+        if (currentSectionIndex > 0) {
+          currentSectionIndex--;
+          updateUI();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+
+      document.getElementById('nextSectionBtn').addEventListener('click', () => {
+        if (saveCurrentSectionAnswers()) {
+          currentSectionIndex++;
+          updateUI();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          const section = sections[currentSectionIndex];
+          const missed = [];
+
+          let globalIndex = 0;
+          for (let i = 0; i < currentSectionIndex; i++) {
+            globalIndex += sections[i].questions.length;
+          }
+
+          section.questions.forEach((q, i) => {
+            const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
+            if (!selected) {
+              missed.push(`${globalIndex + i + 1}`);
+            }
+          });
+
+          alert(`${translations[currentLang].sectionComplete}\n\nMissed Questions: ${missed.join(', ')}`);
+        }
+      });
+
+      document.getElementById('submitBtn').addEventListener('click', async (e) => {
+        e.preventDefault();
+
+        if (!saveCurrentSectionAnswers()) {
+          const section = sections[currentSectionIndex];
+          const missed = [];
+
+          let globalIndex = 0;
+          for (let i = 0; i < currentSectionIndex; i++) {
+            globalIndex += sections[i].questions.length;
+          }
+
+          section.questions.forEach((q, i) => {
+            const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
+            if (!selected) {
+              missed.push(`${globalIndex + i + 1}`);
+            }
+          });
+
+          alert(`${translations[currentLang].sectionComplete}\n\nMissed Questions: ${missed.join(', ')}`);
+          return;
+        }
+
+        let totalPoints = 0;
+        const answerArray = [];
+
+        questionData.forEach(q => {
+          const a = answers[q.id];
+          if (a) {
+            // Assign points based on label: a=0, b=1, c=2, d=3
+            let points = 0;
+            if (a.label === 'b') points = 1;
+            else if (a.label === 'c') points = 2;
+            else if (a.label === 'd') points = 3;
+            totalPoints += points;
+            answerArray.push({
+              question_id: q.id,
+              question: q[`question_${currentLang}`],
+              selected_option: a.text,
+              selected_label: a.label,
+              points: points
+            });
+          }
+        });
+
+        let riskLevel = '';
+        let riskExplanation = '';
+        if (totalPoints <= 22) {
+          riskLevel = currentLang === 'en' ? 'Extremely Unlikely' : 'एकदम असम्भाव्य';
+          riskExplanation = currentLang === 'en'
+            ? `Primary Driver: Strong Moral Block\nYour values or beliefs create a strong resistance.\n\nWhat to Do:\n• Maintain clarity and discipline.\n• Reflect on your values.\n• Avoid conflicting environments.`
+            : `मुख्य प्रेरक: बलियो नैतिक अवरोध\nतपाईंका मूल्य वा विश्वासले बलियो प्रतिरोध सिर्जना गर्छ।\n\nके गर्ने:\n• स्पष्टता र अनुशासन कायम राख्नुहोस्।\n• आफ्ना मूल्यहरूमा विचार गर्नुहोस्।\n• विरोधाभासी वातावरणबाट टाढा रहनुहोस्।`;
+        } else if (totalPoints <= 40) {
+          riskLevel = currentLang === 'en' ? 'Low Possibility' : 'कम सम्भावना';
+          riskExplanation = currentLang === 'en'
+            ? `Primary Driver: Fearful / Reserved\nYou may feel curious, but fear or guilt restrains you.\n\nWhat to Do:\n• Assess whether fear is protective or limiting.\n• Build confidence and boundaries.\n• Seek support if needed.`
+            : `मुख्य प्रेरक: डराउने / आरक्षित\nतपाईं जिज्ञासु महसुस गर्न सक्नुहुन्छ, तर डर वा अपराधबोधले तपाईंलाई रोक्छ।\n\nके गर्ने:\n• डर सुरक्षात्मक हो कि सीमित, मूल्याङ्कन गर्नुहोस्।\n• आत्मविश्वास र सीमा बनाउनुहोस्।\n• आवश्यक परेमा समर्थन खोज्नुहोस्।`;
+        } else if (totalPoints <= 60) {
+          riskLevel = currentLang === 'en' ? 'Medium Possibility' : 'मध्यम सम्भावना';
+          riskExplanation = currentLang === 'en'
+            ? `Primary Driver: Situation-Based\nYour behavior depends on external triggers.\n\nWhat to Do:\n• Identify and avoid patterns/triggers.\n• Build emotional resilience.\n• Practice healthy coping strategies.`
+            : `मुख्य प्रेरक: परिस्थितिजन्य\nतपाईंको व्यवहार बाह्य ट्रिगरमा निर्भर गर्दछ।\n\nके गर्ने:\n• ढाँचा/ट्रिगरहरू पहिचान र टाढा रहनुहोस्।\n• भावनात्मक लचिलोपन बनाउनुहोस्।\n• स्वस्थ सामना रणनीति अभ्यास गर्नुहोस्।`;
+        } else if (totalPoints <= 75) {
+          riskLevel = currentLang === 'en' ? 'High Possibility' : 'उच्च सम्भावना';
+          riskExplanation = currentLang === 'en'
+            ? `Primary Driver: Desire + Financial Motivation\nDesire and financial motives may justify actions.\n\nWhat to Do:\n• Weigh long-term outcomes.\n• Seek healthier financial solutions.\n• Talk to a coach or therapist.`
+            : `मुख्य प्रेरक: इच्छा + आर्थिक प्रेरणा\nइच्छा र आर्थिक कारणहरूले कार्यलाई उचित ठहर्याउन सक्छ।\n\nके गर्ने:\n• दीर्घकालीन परिणाम तौल्नुहोस्।\n• स्वस्थ आर्थिक समाधान खोज्नुहोस्।\n• कोच वा थेरापिस्टसँग कुरा गर्नुहोस्।`;
+        } else {
+          riskLevel = currentLang === 'en' ? 'Very High Possibility' : 'धेरै उच्च सम्भावना';
+          riskExplanation = currentLang === 'en'
+            ? `Primary Driver: Strong Desire + Sense of Control\nYou feel in control, which may justify risky behavior.\n\nWhat to Do:\n• Reevaluate your control.\n• Reconnect with values and goals.\n• Seek professional insight.`
+            : `मुख्य प्रेरक: बलियो इच्छा + नियन्त्रणको भावना\nतपाईं नियन्त्रणमा महसुस गर्नुहुन्छ, जसले जोखिमपूर्ण व्यवहारलाई उचित ठहर्याउन सक्छ।\n\nके गर्ने:\n• आफ्नो नियन्त्रण पुन: मूल्याङ्कन गर्नुहोस्।\n• मूल्य र लक्ष्यसँग पुन: जडान गर्नुहोस्।\n• व्यावसायिक सुझाव खोज्नुहोस्।`;
+        }
+        const id = localStorage.getItem('quiz_user_id') || 'Not Set';
+
+        const payload = {
+          id,
+          totalPoints,
+          riskLevel,
+          riskExplanation,
+          answers: answerArray
+        };
+
+        try {
+          const response = await fetch('https://phycometric-test.onrender.com/api/quiz/submit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+
+          if (response.ok) {
+            document.getElementById('popup').style.display = 'flex';
+            document.getElementById('main-content').classList.add('blur');
+            document.getElementById('resultText').innerText = translations[currentLang].submitSuccess + "\n\n" + riskExplanation;
+            document.getElementById('assessmentResult').innerText =
+              `${translations[currentLang].riskLevel}: ${riskLevel}`;
+          } else {
+            alert("Submission failed. Please try again.");
+          }
+        } catch (err) {
+          console.error("Submission error:", err);
+          alert("Something went wrong while submitting.");
+        }
+      });
+
+      document.getElementById('backToInfoBtn')?.addEventListener('click', () => {
+        window.location.href = 'phycometric.html';
+      });
+
+      loadQuestions();
+
+      function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+      document.getElementById('main-content').classList.remove('blur');
+    }
+  </script>
+</body>
+</html>

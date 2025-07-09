@@ -1,0 +1,1233 @@
+[
+  {
+    "header": {
+      "en": "Section A: Sexual Thoughts and Feelings (10 Questions)",  
+      "ne": "खण्ड क: यौन विचार र भावनाहरू (१० प्रश्नहरू)"
+    }
+  },
+  {
+    "id": 1,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "How often do sexual thoughts cross your mind during a typical day?",
+    "question_ne": "सामान्य दिनमा यौन विचारहरू तपाईंको दिमागमा कति पटक आउँछन्?",
+    "options": [
+      {
+        "en": "Rarely or never",
+        "ne": "कहिलेकाहीं वा कहिल्यै होइन"
+      },
+      {
+        "en": "A few times",
+        "ne": "केही पटक"
+      },
+      {
+        "en": "Several times",
+        "ne": "धेरै पटक"
+      },
+      {
+        "en": "Almost constantly",
+        "ne": "लगभग सधैँ"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "How satisfied are you with your current sexual life?",
+    "question_ne": "तपाईं आफ्नो हालको यौन जीवनसँग कति सन्तुष्ट हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very satisfied",
+        "ne": "धेरै सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat satisfied",
+        "ne": "केहि सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat dissatisfied",
+        "ne": "केहि असन्तुष्ट"
+      },
+      {
+        "en": "Very dissatisfied",
+        "ne": "धेरै असन्तुष्ट"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "How often do you feel guilt or shame after sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईंलाई कति पटक लाज वा अपराधबोध लाग्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Occasionally",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Frequently",
+        "ne": "प्रायः"
+      },
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "Do you use sexual activity to cope with stress or negative emotions?",
+    "question_ne": "के तपाईं तनाव वा नकारात्मक भावनाहरूलाई सामना गर्न यौन क्रियाको प्रयोग गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "How comfortable are you discussing your sexual needs with partners?",
+    "question_ne": "तपाईं पार्टनरसँग आफ्नो यौन आवश्यकता बारे कुरा गर्न कति सहज हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very comfortable",
+        "ne": "धेरै सहज"
+      },
+      {
+        "en": "Somewhat comfortable",
+        "ne": "केहि सहज"
+      },
+      {
+        "en": "Somewhat uncomfortable",
+        "ne": "केहि असहज"
+      },
+      {
+        "en": "Very uncomfortable",
+        "ne": "धेरै असहज"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "How often do sexual thoughts distract you from important activities?",
+    "question_ne": "यौन विचारहरूले तपाईंलाई महत्वपूर्ण कामहरूबाट कति पटक विचलित गर्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "Do you feel your sexual desires are normal and healthy?",
+    "question_ne": "तपाईं आफ्नो यौन चाहनाहरूलाई सामान्य र स्वस्थ ठान्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Completely normal",
+        "ne": "पूरै सामान्य"
+      },
+      {
+        "en": "Mostly normal",
+        "ne": "अधिकांश सामान्य"
+      },
+      {
+        "en": "Somewhat concerning",
+        "ne": "थोरै चिन्ताजनक"
+      },
+      {
+        "en": "Very concerning",
+        "ne": "धेरै चिन्ताजनक"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "How often do you worry about your sexual performance?",
+    "question_ne": "तपाईं आफ्नो यौन प्रदर्शनको बारेमा कति पटक चिन्तित हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "Do you feel emotionally connected during sexual experiences?",
+    "question_ne": "यौन अनुभवको समयमा तपाईं कति भावनात्मक रूपमा जोडिएको महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      },
+      {
+        "en": "Usually",
+        "ne": "धेरैजसो"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Rarely or never",
+        "ne": "कहिल्यै होइन"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "Sexual Thoughts and Feelings",
+    "question_en": "How often do you feel lonely despite sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईं कति पटक एक्लो महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  
+  {
+     "header": {
+      "en": "Section B: Impulse Control and Behavior (10 Questions)  ",  
+      "ne": "खण्ड ख: आवेग नियन्त्रण र व्यवहार (१० प्रश्नहरू)"
+    }
+  },
+  {
+    "id": 11,
+    "section": "Impulse Control and Behavior",
+    "question_en": "How often do sexual thoughts cross your mind during a typical day?",
+    "question_ne": "सामान्य दिनमा यौन विचारहरू तपाईंको दिमागमा कति पटक आउँछन्?",
+    "options": [
+      {
+        "en": "Rarely or never",
+        "ne": "कहिलेकाहीं वा कहिल्यै होइन"
+      },
+      {
+        "en": "A few times",
+        "ne": "केही पटक"
+      },
+      {
+        "en": "Several times",
+        "ne": "धेरै पटक"
+      },
+      {
+        "en": "Almost constantly",
+        "ne": "लगभग सधैँ"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "Impulse Control and Behavior",
+    "question_en": "How satisfied are you with your current sexual life?",
+    "question_ne": "तपाईं आफ्नो हालको यौन जीवनसँग कति सन्तुष्ट हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very satisfied",
+        "ne": "धेरै सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat satisfied",
+        "ne": "केहि सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat dissatisfied",
+        "ne": "केहि असन्तुष्ट"
+      },
+      {
+        "en": "Very dissatisfied",
+        "ne": "धेरै असन्तुष्ट"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "Impulse Control and Behavior",
+    "question_en": "How often do you feel guilt or shame after sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईंलाई कति पटक लाज वा अपराधबोध लाग्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Occasionally",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Frequently",
+        "ne": "प्रायः"
+      },
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "Impulse Control and Behavior",
+    "question_en": "Do you use sexual activity to cope with stress or negative emotions?",
+    "question_ne": "के तपाईं तनाव वा नकारात्मक भावनाहरूलाई सामना गर्न यौन क्रियाको प्रयोग गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "Impulse Control and Behavior",
+    "question_en": "How comfortable are you discussing your sexual needs with partners?",
+    "question_ne": "तपाईं पार्टनरसँग आफ्नो यौन आवश्यकता बारे कुरा गर्न कति सहज हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very comfortable",
+        "ne": "धेरै सहज"
+      },
+      {
+        "en": "Somewhat comfortable",
+        "ne": "केहि सहज"
+      },
+      {
+        "en": "Somewhat uncomfortable",
+        "ne": "केहि असहज"
+      },
+      {
+        "en": "Very uncomfortable",
+        "ne": "धेरै असहज"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "Impulse Control and Behavior",
+    "question_en": "How often do sexual thoughts distract you from important activities?",
+    "question_ne": "यौन विचारहरूले तपाईंलाई महत्वपूर्ण कामहरूबाट कति पटक विचलित गर्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "Impulse Control and Behavior",
+    "question_en": "Do you feel your sexual desires are normal and healthy?",
+    "question_ne": "तपाईं आफ्नो यौन चाहनाहरूलाई सामान्य र स्वस्थ ठान्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Completely normal",
+        "ne": "पूरै सामान्य"
+      },
+      {
+        "en": "Mostly normal",
+        "ne": "अधिकांश सामान्य"
+      },
+      {
+        "en": "Somewhat concerning",
+        "ne": "थोरै चिन्ताजनक"
+      },
+      {
+        "en": "Very concerning",
+        "ne": "धेरै चिन्ताजनक"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "Impulse Control and Behavior",
+    "question_en": "How often do you worry about your sexual performance?",
+    "question_ne": "तपाईं आफ्नो यौन प्रदर्शनको बारेमा कति पटक चिन्तित हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "Impulse Control and Behavior",
+    "question_en": "Do you feel emotionally connected during sexual experiences?",
+    "question_ne": "यौन अनुभवको समयमा तपाईं कति भावनात्मक रूपमा जोडिएको महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      },
+      {
+        "en": "Usually",
+        "ne": "धेरैजसो"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Rarely or never",
+        "ne": "कहिल्यै होइन"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "Impulse Control and Behavior",
+    "question_en": "How often do you feel lonely despite sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईं कति पटक एक्लो महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+     "header": {
+      "en": "Section C: Digital and Media Consumption (10 Questions) ",  
+      "ne": "खण्ड ग: डिजिटल र मिडिया उपभोग (१० प्रश्नहरू)"
+    }
+  },
+  {
+    "id": 21,
+    "section": "Digital and Media Consumption",
+    "question_en": "How often do sexual thoughts cross your mind during a typical day?",
+    "question_ne": "सामान्य दिनमा यौन विचारहरू तपाईंको दिमागमा कति पटक आउँछन्?",
+    "options": [
+      {
+        "en": "Rarely or never",
+        "ne": "कहिलेकाहीं वा कहिल्यै होइन"
+      },
+      {
+        "en": "A few times",
+        "ne": "केही पटक"
+      },
+      {
+        "en": "Several times",
+        "ne": "धेरै पटक"
+      },
+      {
+        "en": "Almost constantly",
+        "ne": "लगभग सधैँ"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "Digital and Media Consumption",
+    "question_en": "How satisfied are you with your current sexual life?",
+    "question_ne": "तपाईं आफ्नो हालको यौन जीवनसँग कति सन्तुष्ट हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very satisfied",
+        "ne": "धेरै सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat satisfied",
+        "ne": "केहि सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat dissatisfied",
+        "ne": "केहि असन्तुष्ट"
+      },
+      {
+        "en": "Very dissatisfied",
+        "ne": "धेरै असन्तुष्ट"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "Digital and Media Consumption",
+    "question_en": "How often do you feel guilt or shame after sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईंलाई कति पटक लाज वा अपराधबोध लाग्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Occasionally",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Frequently",
+        "ne": "प्रायः"
+      },
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "Digital and Media Consumption",
+    "question_en": "Do you use sexual activity to cope with stress or negative emotions?",
+    "question_ne": "के तपाईं तनाव वा नकारात्मक भावनाहरूलाई सामना गर्न यौन क्रियाको प्रयोग गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "Digital and Media Consumption",
+    "question_en": "How comfortable are you discussing your sexual needs with partners?",
+    "question_ne": "तपाईं पार्टनरसँग आफ्नो यौन आवश्यकता बारे कुरा गर्न कति सहज हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very comfortable",
+        "ne": "धेरै सहज"
+      },
+      {
+        "en": "Somewhat comfortable",
+        "ne": "केहि सहज"
+      },
+      {
+        "en": "Somewhat uncomfortable",
+        "ne": "केहि असहज"
+      },
+      {
+        "en": "Very uncomfortable",
+        "ne": "धेरै असहज"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "Digital and Media Consumption",
+    "question_en": "How often do sexual thoughts distract you from important activities?",
+    "question_ne": "यौन विचारहरूले तपाईंलाई महत्वपूर्ण कामहरूबाट कति पटक विचलित गर्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "Digital and Media Consumption",
+    "question_en": "Do you feel your sexual desires are normal and healthy?",
+    "question_ne": "तपाईं आफ्नो यौन चाहनाहरूलाई सामान्य र स्वस्थ ठान्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Completely normal",
+        "ne": "पूरै सामान्य"
+      },
+      {
+        "en": "Mostly normal",
+        "ne": "अधिकांश सामान्य"
+      },
+      {
+        "en": "Somewhat concerning",
+        "ne": "थोरै चिन्ताजनक"
+      },
+      {
+        "en": "Very concerning",
+        "ne": "धेरै चिन्ताजनक"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "Digital and Media Consumption",
+    "question_en": "How often do you worry about your sexual performance?",
+    "question_ne": "तपाईं आफ्नो यौन प्रदर्शनको बारेमा कति पटक चिन्तित हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "Digital and Media Consumption",
+    "question_en": "Do you feel emotionally connected during sexual experiences?",
+    "question_ne": "यौन अनुभवको समयमा तपाईं कति भावनात्मक रूपमा जोडिएको महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      },
+      {
+        "en": "Usually",
+        "ne": "धेरैजसो"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Rarely or never",
+        "ne": "कहिल्यै होइन"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "Digital and Media Consumption",
+    "question_en": "How often do you feel lonely despite sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईं कति पटक एक्लो महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+     "header": {
+      "en": "Section D: Relationships and Social Impact (10 Questions)  ",  
+      "ne": "खण्ड घ: सम्बन्ध र सामाजिक प्रभाव (१० प्रश्नहरू)"
+    }
+  },
+  {
+    "id": 31,
+    "section": "Relationships and Social Impact",
+    "question_en": "How often do sexual thoughts cross your mind during a typical day?",
+    "question_ne": "सामान्य दिनमा यौन विचारहरू तपाईंको दिमागमा कति पटक आउँछन्?",
+    "options": [
+      {
+        "en": "Rarely or never",
+        "ne": "कहिलेकाहीं वा कहिल्यै होइन"
+      },
+      {
+        "en": "A few times",
+        "ne": "केही पटक"
+      },
+      {
+        "en": "Several times",
+        "ne": "धेरै पटक"
+      },
+      {
+        "en": "Almost constantly",
+        "ne": "लगभग सधैँ"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "Relationships and Social Impact",
+    "question_en": "How satisfied are you with your current sexual life?",
+    "question_ne": "तपाईं आफ्नो हालको यौन जीवनसँग कति सन्तुष्ट हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very satisfied",
+        "ne": "धेरै सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat satisfied",
+        "ne": "केहि सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat dissatisfied",
+        "ne": "केहि असन्तुष्ट"
+      },
+      {
+        "en": "Very dissatisfied",
+        "ne": "धेरै असन्तुष्ट"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "Relationships and Social Impact",
+    "question_en": "How often do you feel guilt or shame after sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईंलाई कति पटक लाज वा अपराधबोध लाग्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Occasionally",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Frequently",
+        "ne": "प्रायः"
+      },
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "Relationships and Social Impact",
+    "question_en": "Do you use sexual activity to cope with stress or negative emotions?",
+    "question_ne": "के तपाईं तनाव वा नकारात्मक भावनाहरूलाई सामना गर्न यौन क्रियाको प्रयोग गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "Relationships and Social Impact",
+    "question_en": "How comfortable are you discussing your sexual needs with partners?",
+    "question_ne": "तपाईं पार्टनरसँग आफ्नो यौन आवश्यकता बारे कुरा गर्न कति सहज हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very comfortable",
+        "ne": "धेरै सहज"
+      },
+      {
+        "en": "Somewhat comfortable",
+        "ne": "केहि सहज"
+      },
+      {
+        "en": "Somewhat uncomfortable",
+        "ne": "केहि असहज"
+      },
+      {
+        "en": "Very uncomfortable",
+        "ne": "धेरै असहज"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "Relationships and Social Impact",
+    "question_en": "How often do sexual thoughts distract you from important activities?",
+    "question_ne": "यौन विचारहरूले तपाईंलाई महत्वपूर्ण कामहरूबाट कति पटक विचलित गर्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "Relationships and Social Impact",
+    "question_en": "Do you feel your sexual desires are normal and healthy?",
+    "question_ne": "तपाईं आफ्नो यौन चाहनाहरूलाई सामान्य र स्वस्थ ठान्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Completely normal",
+        "ne": "पूरै सामान्य"
+      },
+      {
+        "en": "Mostly normal",
+        "ne": "अधिकांश सामान्य"
+      },
+      {
+        "en": "Somewhat concerning",
+        "ne": "थोरै चिन्ताजनक"
+      },
+      {
+        "en": "Very concerning",
+        "ne": "धेरै चिन्ताजनक"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "Relationships and Social Impact",
+    "question_en": "How often do you worry about your sexual performance?",
+    "question_ne": "तपाईं आफ्नो यौन प्रदर्शनको बारेमा कति पटक चिन्तित हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "Relationships and Social Impact",
+    "question_en": "Do you feel emotionally connected during sexual experiences?",
+    "question_ne": "यौन अनुभवको समयमा तपाईं कति भावनात्मक रूपमा जोडिएको महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      },
+      {
+        "en": "Usually",
+        "ne": "धेरैजसो"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Rarely or never",
+        "ne": "कहिल्यै होइन"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "Relationships and Social Impact",
+    "question_en": "How often do you feel lonely despite sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईं कति पटक एक्लो महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+     "header": {
+      "en": "Section E: Physical and Financial Consequences (10 Questions)  ",  
+      "ne": "खण्ड E: भौतिक र वित्तीय परिणामहरू (१० प्रश्नहरू)"
+    }
+  },
+  {
+    "id": 41,
+    "section": "Physical and Financial Consequences",
+    "question_en": "How often do sexual thoughts cross your mind during a typical day?",
+    "question_ne": "सामान्य दिनमा यौन विचारहरू तपाईंको दिमागमा कति पटक आउँछन्?",
+    "options": [
+      {
+        "en": "Rarely or never",
+        "ne": "कहिलेकाहीं वा कहिल्यै होइन"
+      },
+      {
+        "en": "A few times",
+        "ne": "केही पटक"
+      },
+      {
+        "en": "Several times",
+        "ne": "धेरै पटक"
+      },
+      {
+        "en": "Almost constantly",
+        "ne": "लगभग सधैँ"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "section": "Physical and Financial Consequences",
+    "question_en": "How satisfied are you with your current sexual life?",
+    "question_ne": "तपाईं आफ्नो हालको यौन जीवनसँग कति सन्तुष्ट हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very satisfied",
+        "ne": "धेरै सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat satisfied",
+        "ne": "केहि सन्तुष्ट"
+      },
+      {
+        "en": "Somewhat dissatisfied",
+        "ne": "केहि असन्तुष्ट"
+      },
+      {
+        "en": "Very dissatisfied",
+        "ne": "धेरै असन्तुष्ट"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "section": "Physical and Financial Consequences",
+    "question_en": "How often do you feel guilt or shame after sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईंलाई कति पटक लाज वा अपराधबोध लाग्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Occasionally",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Frequently",
+        "ne": "प्रायः"
+      },
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "section": "Physical and Financial Consequences",
+    "question_en": "Do you use sexual activity to cope with stress or negative emotions?",
+    "question_ne": "के तपाईं तनाव वा नकारात्मक भावनाहरूलाई सामना गर्न यौन क्रियाको प्रयोग गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "section": "Physical and Financial Consequences",
+    "question_en": "How comfortable are you discussing your sexual needs with partners?",
+    "question_ne": "तपाईं पार्टनरसँग आफ्नो यौन आवश्यकता बारे कुरा गर्न कति सहज हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Very comfortable",
+        "ne": "धेरै सहज"
+      },
+      {
+        "en": "Somewhat comfortable",
+        "ne": "केहि सहज"
+      },
+      {
+        "en": "Somewhat uncomfortable",
+        "ne": "केहि असहज"
+      },
+      {
+        "en": "Very uncomfortable",
+        "ne": "धेरै असहज"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "section": "Physical and Financial Consequences",
+    "question_en": "How often do sexual thoughts distract you from important activities?",
+    "question_ne": "यौन विचारहरूले तपाईंलाई महत्वपूर्ण कामहरूबाट कति पटक विचलित गर्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "section": "Physical and Financial Consequences",
+    "question_en": "Do you feel your sexual desires are normal and healthy?",
+    "question_ne": "तपाईं आफ्नो यौन चाहनाहरूलाई सामान्य र स्वस्थ ठान्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Completely normal",
+        "ne": "पूरै सामान्य"
+      },
+      {
+        "en": "Mostly normal",
+        "ne": "अधिकांश सामान्य"
+      },
+      {
+        "en": "Somewhat concerning",
+        "ne": "थोरै चिन्ताजनक"
+      },
+      {
+        "en": "Very concerning",
+        "ne": "धेरै चिन्ताजनक"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "section": "Physical and Financial Consequences",
+    "question_en": "How often do you worry about your sexual performance?",
+    "question_ne": "तपाईं आफ्नो यौन प्रदर्शनको बारेमा कति पटक चिन्तित हुनुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "section": "Physical and Financial Consequences",
+    "question_en": "Do you feel emotionally connected during sexual experiences?",
+    "question_ne": "यौन अनुभवको समयमा तपाईं कति भावनात्मक रूपमा जोडिएको महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Always",
+        "ne": "सधैं"
+      },
+      {
+        "en": "Usually",
+        "ne": "धेरैजसो"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Rarely or never",
+        "ne": "कहिल्यै होइन"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "section": "Physical and Financial Consequences",
+    "question_en": "How often do you feel lonely despite sexual activity?",
+    "question_ne": "यौन क्रियाकलापपछि तपाईं कति पटक एक्लो महसुस गर्नुहुन्छ?",
+    "options": [
+      {
+        "en": "Never",
+        "ne": "कहिल्यै होइन"
+      },
+      {
+        "en": "Rarely",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Sometimes",
+        "ne": "कहिलेकाहीं"
+      },
+      {
+        "en": "Very often",
+        "ne": "धेरै पटक"
+      }
+    ]
+  }
+]

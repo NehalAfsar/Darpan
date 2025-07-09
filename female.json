@@ -1,0 +1,1394 @@
+[
+    {
+        "header": {
+      "en": "Section 1: Moral Views & Self-Perception",  
+      "ne": "खण्ड १: नैतिक दृष्टिकोण र आत्म-धारणा"
+    }
+    },
+    {
+        "id": 1,
+        "question_en": "If someone offers you a huge amount of money for one night of intimacy with full privacy and no strings, how do you honestly feel?",
+        "question_ne": "यदि कसैले तपाईलाई गोप्य रूपमा एक रातको आत्मीयताका लागि ठूलो रकम प्रस्ताव गर्छ भने, तपाईंलाई इमानदारीपूर्वक कस्तो लाग्छ?",
+        "options": [
+            {
+                "en": "It's disturbing and against my principles",
+                "ne": "यो विघ्नकारी हो र मेरो सिद्धान्तको विरुद्धमा छ",
+                "value": 0
+            },
+            {
+                "en": "It would confuse me a lot emotionally",
+                "ne": "यो मलाई भावनात्मक रूपमा धेरै अन्योल बनाउनेछ",
+                "value": 2
+            },
+            {
+                "en": "I would think about it carefully",
+                "ne": "म यसबारे ध्यानपूर्वक विचार गर्नेछु",
+                "value": 5
+            },
+            {
+                "en": "I might say yes if it’s totally safe",
+                "ne": "यदि यो पूर्ण रूपमा सुरक्षित छ भने म सहमत हुन सक्छु",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question_en": "Do you believe physical intimacy must always come from love and emotional bonding?",
+        "question_ne": "के तपाईं विश्वास गर्नुहुन्छ कि शारीरिक आत्मीयता सधैं प्रेम र भावनात्मक सम्बन्धबाट आउनुपर्छ?",
+        "options": [
+            {
+                "en": "Yes, love is a must for me",
+                "ne": "हो, म लागि प्रेम अनिवार्य छ",
+                "value": 0
+            },
+            {
+                "en": "Mostly, but I understand others may feel differently",
+                "ne": "धेरैजसो, तर म बुझ्छु अरूको विचार फरक हुन सक्छ",
+                "value": 2
+            },
+            {
+                "en": "It can be separate sometimes",
+                "ne": "कहिलेकाहीं यो अलग पनि हुन सक्छ",
+                "value": 5
+            },
+            {
+                "en": "No, it can be a personal or practical choice too",
+                "ne": "होइन, यो व्यक्तिगत वा व्यावहारिक विकल्प पनि हुन सक्छ",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question_en": "If a wealthy person offers luxury and care in return for secret companionship, what is your honest reaction?",
+        "question_ne": "यदि धनी व्यक्तिले गोप्य साथको बदलामा विलासिता र हेरचाह प्रस्ताव गर्छ भने तपाईंको इमान्दार प्रतिक्रिया के हुनेछ?",
+        "options": [
+            {
+                "en": "I would reject it immediately",
+                "ne": "म तुरुन्त अस्वीकार गर्ने थिएँ",
+                "value": 0
+            },
+            {
+                "en": "I might feel flattered but uncomfortable",
+                "ne": "म अलिकति प्रभावित भए पनि असहज महसुस गर्ने थिएँ",
+                "value": 2
+            },
+            {
+                "en": "I’d be curious to understand their motive",
+                "ne": "म तिनको उद्देश्य बुझ्न उत्सुक हुने थिएँ",
+                "value": 5
+            },
+            {
+                "en": "If it’s private and respectful, I would consider it",
+                "ne": "यदि यो गोप्य र सम्मानजनक छ भने, म विचार गर्ने थिएँ",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question_en": "How would you define your self-respect when it comes to physical or emotional compromises?",
+        "question_ne": "शारीरिक वा भावनात्मक सम्झौतासँग सम्बन्धित तपाईको आत्म-सम्मानलाई तपाईं कसरी परिभाषित गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "I don’t compromise no matter what",
+                "ne": "जे भए पनि म सम्झौता गर्दिन",
+                "value": 0
+            },
+            {
+                "en": "I avoid such situations",
+                "ne": "म यस्ता परिस्थितिबाट टाढा रहन्छु",
+                "value": 2
+            },
+            {
+                "en": "I know my limits and make smart choices",
+                "ne": "म आफ्नो सीमा जान्दछु र समझदारी निर्णय गर्छु",
+                "value": 5
+            },
+            {
+                "en": "I make choices that benefit me while staying in control",
+                "ne": "म आफ्नो नियन्त्रणमा रहँदै फाइदा हुने निर्णय लिन्छु",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question_en": "Is it okay for a woman to use her attractiveness to gain opportunities, if no one is harmed?",
+        "question_ne": "यदि कसैलाई हानि नगरी अवसर पाउन महिलाले आफ्नो आकर्षण प्रयोग गर्छिन् भने के यो ठीक हो?",
+        "options": [
+            {
+                "en": "No, it goes against values",
+                "ne": "होइन, यो मूल्यहरूको विरुद्धमा जान्छ",
+                "value": 0
+            },
+            {
+                "en": "It’s understandable in today’s world",
+                "ne": "आजको संसारमा यो बुझ्न सकिने कुरा हो",
+                "value": 2
+            },
+            {
+                "en": "Smart if handled safely and privately",
+                "ne": "सुरक्षित र गोप्य रूपमा गरेमा यो चालाकी हो",
+                "value": 5
+            },
+            {
+                "en": "It's a strong move if she owns it completely",
+                "ne": "यदि उसले यसलाई पूर्ण रूपमा स्वीकारेकी छ भने यो एक बलियो कदम हो",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "header": {
+      "en": "Section 2: Financial Choices & Lifestyle Desires",  
+      "ne": "खण्ड २: वित्तीय विकल्प र जीवनशैलीको चाहना"
+    }
+    },
+    {
+        "id": 6,
+        "question_en": "How do you feel about keeping secrets for money or favors?",
+        "question_ne": "पैसा वा फाइदाको लागि गोप्य कुरा राख्न तपाईंलाई कस्तो लाग्छ?",
+        "options": [
+            {
+                "en": "It’s unethical and wrong",
+                "ne": "यो अनैतिक र गलत हो",
+                "value": 0
+            },
+            {
+                "en": "I’m hesitant but might do it once",
+                "ne": "म हिचकिचाउँछु तर एक पटक गर्न सक्छु",
+                "value": 2
+            },
+            {
+                "en": "Depends on the situation and people",
+                "ne": "परिस्थिति र व्यक्तिमा निर्भर गर्दछ",
+                "value": 5
+            },
+            {
+                "en": "If it benefits me, I see no problem",
+                "ne": "यदि यसले मलाई फाइदा पुर्‍याउँछ भने मलाई समस्या छैन",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question_en": "Would you ever consider a relationship based only on mutual convenience?",
+        "question_ne": "के तपाईं कहिल्यै पारस्परिक सुविधामा आधारित सम्बन्ध विचार गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Never, relationships need deeper meaning",
+                "ne": "कहिल्यै होइन, सम्बन्धमा गहिरो अर्थ हुनुपर्छ",
+                "value": 0
+            },
+            {
+                "en": "Rarely, only in special circumstances",
+                "ne": "धेरै कम, विशेष परिस्थितिमा मात्र",
+                "value": 2
+            },
+            {
+                "en": "Sometimes, if both agree clearly",
+                "ne": "कहिलेकाहीं, यदि दुवैले स्पष्ट सहमति जनाए भने",
+                "value": 5
+            },
+            {
+                "en": "Yes, convenience is a valid basis too",
+                "ne": "हो, सुविधा पनि सही आधार हुन सक्छ",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question_en": "Do you believe society unfairly judges certain lifestyle choices?",
+        "question_ne": "के तपाईं विश्वास गर्नुहुन्छ कि समाजले केहि जीवनशैली विकल्पहरूलाई अन्यायपूर्ण रूपमा निर्णय गर्छ?",
+        "options": [
+            {
+                "en": "Yes, very unfairly",
+                "ne": "हो, धेरै अन्यायपूर्ण रूपमा",
+                "value": 0
+            },
+            {
+                "en": "Sometimes, but rules are needed",
+                "ne": "कहिलेकाहीं, तर नियमहरू आवश्यक छन्",
+                "value": 2
+            },
+            {
+                "en": "It depends on the choice",
+                "ne": "यो विकल्पमा निर्भर गर्दछ",
+                "value": 5
+            },
+            {
+                "en": "No, society mostly judges fairly",
+                "ne": "होइन, समाज प्रायः न्यायसंगत रूपमा निर्णय गर्छ",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question_en": "Would you accept gifts or money in exchange for personal favors?",
+        "question_ne": "के तपाईं व्यक्तिगत फाइदाको लागि उपहार वा पैसा स्वीकार गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Never, that’s corrupt",
+                "ne": "कहिल्यै होइन, त्यो भ्रष्टाचार हो",
+                "value": 0
+            },
+            {
+                "en": "Only in emergencies",
+                "ne": "आपतकालमा मात्र",
+                "value": 2
+            },
+            {
+                "en": "If it’s fair and agreed upon",
+                "ne": "यदि यो उचित र सहमतिमा छ भने",
+                "value": 5
+            },
+            {
+                "en": "Yes, it’s a normal transaction",
+                "ne": "हो, यो सामान्य कारोबार हो",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question_en": "How do you view the idea of emotional detachment in difficult relationships?",
+        "question_ne": "कठिन सम्बन्धहरूमा भावनात्मक अलगावको विचारलाई तपाईं कसरी हेर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "It’s necessary for self-protection",
+                "ne": "आत्म-सुरक्षाको लागि आवश्यक छ",
+                "value": 0
+            },
+            {
+                "en": "Sometimes helpful but painful",
+                "ne": "कहिलेकाहीं उपयोगी तर दुखदायी",
+                "value": 2
+            },
+            {
+                "en": "I try to balance feelings and distance",
+                "ne": "म भावना र दूरीलाई सन्तुलन गर्न प्रयास गर्छु",
+                "value": 5
+            },
+            {
+                "en": "I avoid detachment, prefer to resolve issues",
+                "ne": "म अलगावबाट बच्छु, समस्या समाधान गर्न चाहन्छु",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "header": {
+      "en": "Section 3: Emotional Control & Risk Handling",  
+      "ne": "खण्ड ३: भावनात्मक नियन्त्रण र जोखिम व्यवस्थापन"
+    }
+    },
+    {
+        "id": 11,
+        "question_en": "How comfortable are you with discussing personal desires openly with a partner?",
+        "question_ne": "तपाईं साथी संग व्यक्तिगत चाहनाहरू खुलस्त रूपमा छलफल गर्न कति सहज महसुस गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Very uncomfortable",
+                "ne": "धेरै असहज",
+                "value": 0
+            },
+            {
+                "en": "Somewhat hesitant",
+                "ne": "अलि हिचकिचाउँछु",
+                "value": 2
+            },
+            {
+                "en": "Usually open but cautious",
+                "ne": "प्राय: खुला तर सतर्क",
+                "value": 5
+            },
+            {
+                "en": "Completely open and honest",
+                "ne": "पूर्ण रूपमा खुला र इमानदार",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "question_en": "Do you think it’s acceptable to maintain friendships with ex-partners?",
+        "question_ne": "के तपाईंलाई पूर्व साथीहरूसँग मित्रता कायम राख्नु स्वीकार्य लाग्छ?",
+        "options": [
+            {
+                "en": "Never acceptable",
+                "ne": "कहिल्यै स्वीकार्य छैन",
+                "value": 0
+            },
+            {
+                "en": "Rarely acceptable",
+                "ne": "धेरै कम स्वीकार्य",
+                "value": 2
+            },
+            {
+                "en": "Depends on the individuals",
+                "ne": "व्यक्तिहरूमा निर्भर गर्दछ",
+                "value": 5
+            },
+            {
+                "en": "Yes, if boundaries are respected",
+                "ne": "हो, यदि सीमा सम्मानित हुन्छन् भने",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "question_en": "How do you react to societal pressure regarding marriage and relationships?",
+        "question_ne": "विवाह र सम्बन्धमा सामाजिक दबाबप्रति तपाईंको प्रतिक्रिया कस्तो हुन्छ?",
+        "options": [
+            {
+                "en": "I resist it strongly",
+                "ne": "म यसलाई कडा रूपमा प्रतिरोध गर्छु",
+                "value": 0
+            },
+            {
+                "en": "I feel stressed but try to manage",
+                "ne": "म तनाव महसुस गर्छु तर व्यवस्थापन गर्छु",
+                "value": 2
+            },
+            {
+                "en": "I weigh opinions but decide independently",
+                "ne": "म विचार सुन्‍छु तर स्वतन्त्र निर्णय गर्छु",
+                "value": 5
+            },
+            {
+                "en": "I mostly follow social expectations",
+                "ne": "म प्रायः सामाजिक अपेक्षाहरू अनुसरण गर्छु",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "question_en": "Would you consider financial stability more important than emotional connection in a partner?",
+        "question_np": "के तपाईं साथीमा भावनात्मक सम्बन्धभन्दा आर्थिक स्थिरतालाई बढी महत्त्व दिनुहुन्छ?",
+        "options": [
+            {
+                "en": "Never, emotions are primary",
+                "ne": "कहिल्यै होइन, भावना मुख्य छन्",
+                "value": 0
+            },
+            {
+                "en": "Sometimes, depending on situation",
+                "ne": "कहिलेकाहीं, परिस्थितिमा निर्भर गर्दै",
+                "value": 2
+            },
+            {
+                "en": "Often, financial stability is key",
+                "ne": "धेरैजसो, आर्थिक स्थिरता महत्वपूर्ण छ",
+                "value": 5
+            },
+            {
+                "en": "Always, security comes first",
+                "ne": "सधैं, सुरक्षा पहिलो प्राथमिकता हो",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "question_en": "How do you handle jealousy in relationships?",
+        "question_ne": "तपाईं सम्बन्धमा ईर्ष्या कसरी सम्हाल्नुहुन्छ?",
+        "options": [
+            {
+                "en": "I get very upset and confront it",
+                "ne": "म धेरै दुख्छु र सामना गर्छु",
+                "value": 0
+            },
+            {
+                "en": "I try to control but feel insecure",
+                "ne": "म नियन्त्रण गर्न प्रयास गर्छु तर असुरक्षित महसुस गर्छु",
+                "value": 2
+            },
+            {
+                "en": "I communicate openly to resolve it",
+                "ne": "म यसलाई समाधान गर्न खुला रूपमा कुरा गर्छु",
+                "value": 5
+            },
+            {
+                "en": "I rarely feel jealous and trust fully",
+                "ne": "म कहिल्यै ईर्ष्या गर्दिन र पूर्ण रूपमा विश्वास गर्छु",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "header": {
+      "en": "Section 4: Attention, Thrill & Personal Power",  
+      "ne": "खण्ड ४: ध्यान, रोमांच र व्यक्तिगत शक्ति"
+    }
+    },
+    {
+        "id": 16,
+        "question_en": "Would you prioritize career growth over starting a family early?",
+        "question_ne": "के तपाईं परिवार सुरु गर्नुको सट्टा करियर वृद्धिलाई प्राथमिकता दिनुहुन्छ?",
+        "options": [
+            {
+                "en": "No, family comes first",
+                "ne": "होइन, परिवार पहिलो हो",
+                "value": 0
+            },
+            {
+                "en": "Sometimes, balance is important",
+                "ne": "कहिलेकाहीं, सन्तुलन महत्वपूर्ण छ",
+                "value": 2
+            },
+            {
+                "en": "Mostly, career is priority",
+                "ne": "धेरैजसो, करियर प्राथमिकता हो",
+                "value": 5
+            },
+            {
+                "en": "Yes, career growth is essential",
+                "ne": "हो, करियर विकास आवश्यक छ",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "question_en": "How do you feel about couples living separately before marriage?",
+        "question_ne": "विवाह अघि जोडिले अलग बस्ने बारे तपाईंलाई कस्तो लाग्छ?",
+        "options": [
+            {
+                "en": "It’s unacceptable",
+                "ne": "यो अस्वीकार्य छ",
+                "value": 0
+            },
+            {
+                "en": "It’s unusual but understandable",
+                "ne": "यो असामान्य छ तर बुझ्न सकिने कुरा हो",
+                "value": 2
+            },
+            {
+                "en": "It’s practical and helpful",
+                "ne": "यो व्यावहारिक र सहयोगी छ",
+                "value": 5
+            },
+            {
+                "en": "It’s the best way to know each other",
+                "ne": "यो एकअर्कालाई चिन्ने सबैभन्दा राम्रो तरिका हो",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "question_en": "Do you believe in giving second chances after serious mistakes in relationships?",
+        "question_ne": "सम्बन्धमा गम्भीर गल्ती पछि दोस्रो मौका दिनुमा तपाईंको विश्वास कस्तो छ?",
+        "options": [
+            {
+                "en": "Never, once trust is broken it’s over",
+                "ne": "कहिल्यै होइन, एकपटक विश्वास भत्किएपछि अन्त हुन्छ",
+                "value": 0
+            },
+            {
+                "en": "Rarely, only for genuine remorse",
+                "ne": "धेरै कम, मात्र साँचो पश्चातापमा",
+                "value": 2
+            },
+            {
+                "en": "Sometimes, depending on the mistake",
+                "ne": "कहिलेकाहीं, गल्तीमा निर्भर गर्दै",
+                "value": 5
+            },
+            {
+                "en": "Yes, everyone deserves a second chance",
+                "ne": "हो, सबैले दोस्रो मौका पाउनुपर्छ",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "question_en": "How important is physical appearance in your choice of partner?",
+        "question_ne": "साथी छनोटमा शारीरिक सुन्दरता कति महत्त्वपूर्ण छ?",
+        "options": [
+            {
+                "en": "Not important at all",
+                "ne": "एकदम महत्त्वपूर्ण छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat important",
+                "ne": "केही हदसम्म महत्त्वपूर्ण",
+                "value": 2
+            },
+            {
+                "en": "Important but not the only factor",
+                "ne": "महत्त्वपूर्ण तर मात्र कारक होइन",
+                "value": 5
+            },
+            {
+                "en": "Very important",
+                "ne": "धेरै महत्त्वपूर्ण",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "question_en": "Would you feel comfortable being open about a past that society might judge?",
+        "question_ne": "समाजले निर्णय गर्न सक्ने विगतको बारेमा खुला हुन तपाईंलाई कस्तो लाग्छ?",
+        "options": [
+            {
+                "en": "No, I would hide it",
+                "ne": "होइन, म यसलाई लुकाउने थिएँ",
+                "value": 0
+            },
+            {
+                "en": "Only with close friends",
+                "ne": "मात्र नजिकका साथीहरूसँग",
+                "value": 2
+            },
+            {
+                "en": "Depends on the situation",
+                "ne": "परिस्थितिमा निर्भर गर्दछ",
+                "value": 5
+            },
+            {
+                "en": "Yes, honesty is best",
+                "ne": "हो, इमानदारी उत्तम हो",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "header": {
+      "en": "Section 5: Boundaries, Beliefs & Identity",  
+      "ne": "खण्ड ५: सिमाना, विश्वास र पहिचान"
+    }
+    },
+    {
+        "id": 21,
+        "question_en": "How do you prefer to resolve conflicts in a relationship?",
+        "question_ne": "सम्बन्धमा विवाद समाधान गर्न तपाईंलाई कस्तो तरिका मन पर्छ?",
+        "options": [
+            {
+                "en": "Avoid confrontation",
+                "ne": "विवादबाट बच्ने",
+                "value": 0
+            },
+            {
+                "en": "Argue until one gives in",
+                "ne": "एक जना जित्छन् भनी झगडा गर्ने",
+                "value": 2
+            },
+            {
+                "en": "Talk calmly to find a solution",
+                "ne": "शान्त भएर कुरा गरेर समाधान खोज्ने",
+                "value": 5
+            },
+            {
+                "en": "Seek counseling or mediation",
+                "ne": "परामर्श वा मध्यस्थता खोज्ने",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "question_en": "Do you think romantic love is necessary for a successful marriage?",
+        "question_ne": "सफल विवाहका लागि रोमान्टिक माया आवश्यक छ भनेर तपाईं सोच्नुहुन्छ?",
+        "options": [
+            {
+                "en": "No, it’s not necessary",
+                "ne": "होइन, आवश्यक छैन",
+                "value": 0
+            },
+            {
+                "en": "Sometimes, but not always",
+                "ne": "कहिलेकाहीं, तर सधैं होइन",
+                "value": 2
+            },
+            {
+                "en": "Usually, it helps",
+                "ne": "प्राय: सहयोग गर्छ",
+                "value": 5
+            },
+            {
+                "en": "Yes, it’s essential",
+                "ne": "हो, अत्यावश्यक छ",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "question_en": "How often do you think about your partner’s happiness compared to your own?",
+        "question_ne": "तपाईंले आफ्नो साथीको खुशी आफ्नै भन्दा कति पटक सोच्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Rarely",
+                "ne": "धेरै कम",
+                "value": 0
+            },
+            {
+                "en": "Sometimes",
+                "ne": "कहिलेकाहीं",
+                "value": 2
+            },
+            {
+                "en": "Often",
+                "ne": "धेरै पटक",
+                "value": 5
+            },
+            {
+                "en": "Almost always",
+                "ne": "लगभग सधैं",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "question_en": "Would you be open to relationship counseling if needed?",
+        "question_ne": "आवश्यक परेमा सम्बन्ध परामर्शमा जान तपाईं तयार हुनुहुन्छ?",
+        "options": [
+            {
+                "en": "No, I wouldn’t go",
+                "ne": "होइन, म जान्न चाहन्न",
+                "value": 0
+            },
+            {
+                "en": "Maybe, if partner insists",
+                "ne": "सायद, यदि साथी आग्रह गर्छ भने",
+                "value": 2
+            },
+            {
+                "en": "Yes, I think it can help",
+                "ne": "हो, मलाई लाग्छ यसले मद्दत गर्छ",
+                "value": 5
+            },
+            {
+                "en": "Definitely, I believe in counseling",
+                "ne": "पक्कै पनि, म परामर्शमा विश्वास गर्छु",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "question_en": "How important is sexual compatibility to you?",
+        "question_ne": "तपाईंका लागि यौन मेल-मिलाप कति महत्त्वपूर्ण छ?",
+        "options": [
+            {
+                "en": "Not important",
+                "ne": "महत्त्वपूर्ण छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat important",
+                "ne": "केही हदसम्म महत्त्वपूर्ण",
+                "value": 2
+            },
+            {
+                "en": "Important",
+                "ne": "महत्त्वपूर्ण",
+                "value": 5
+            },
+            {
+                "en": "Very important",
+                "ne": "धेरै महत्त्वपूर्ण",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "header": {
+      "en": "Section 6: Privacy, Reputation & Self-Definition",  
+      "ne": "खण्ड ६: गोपनीयता, प्रतिष्ठा र आत्म-परिभाषा"
+    }
+    },
+    {
+        "id": 26,
+        "question_en": "Do you believe that trust can be rebuilt after betrayal?",
+        "question_ne": "धोखाधडी पछि विश्वास पुनः निर्माण गर्न सकिन्छ भन्ने तपाईंको विश्वास कस्तो छ?",
+        "options": [
+            {
+                "en": "Never",
+                "ne": "कहिल्यै होइन",
+                "value": 0
+            },
+            {
+                "en": "Rarely",
+                "ne": "धेरै कम",
+                "value": 2
+            },
+            {
+                "en": "Sometimes",
+                "ne": "कहिलेकाहीं",
+                "value": 5
+            },
+            {
+                "en": "Yes, with effort",
+                "ne": "हो, प्रयास गरेमा",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "question_en": "How do you show love and affection in a relationship?",
+        "question_ne": "सम्बन्धमा तपाईं माया र स्नेह कसरी देखाउनुहुन्छ?",
+        "options": [
+            {
+                "en": "Rarely show it",
+                "ne": "धेरै कम देखाउँछु",
+                "value": 0
+            },
+            {
+                "en": "Sometimes through words",
+                "ne": "कहिलेकाहीं शब्दमार्फत",
+                "value": 2
+            },
+            {
+                "en": "Often through actions",
+                "ne": "धेरै पटक कार्यमार्फत",
+                "value": 5
+            },
+            {
+                "en": "Constantly express it",
+                "ne": "सधैं व्यक्त गर्छु",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "question_en": "Would you consider cultural or religious differences a deal breaker?",
+        "question_ne": "सांस्कृतिक वा धार्मिक फरकलाई तपाईंले सम्बन्धमा बाधा मान्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Yes, definitely",
+                "ne": "हो, पक्कै पनि",
+                "value": 0
+            },
+            {
+                "en": "Sometimes",
+                "ne": "कहिलेकाहीं",
+                "value": 2
+            },
+            {
+                "en": "Depends on the couple",
+                "ne": "जोडीमा निर्भर गर्दछ",
+                "value": 5
+            },
+            {
+                "en": "No, differences don’t matter",
+                "ne": "होइन, फरक महत्व राख्दैन",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "question_en": "How important is independence in a relationship for you?",
+        "question_ne": "तपाईंका लागि सम्बन्धमा स्वतन्त्रता कति महत्त्वपूर्ण छ?",
+        "options": [
+            {
+                "en": "Not important",
+                "ne": "महत्त्वपूर्ण छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat important",
+                "ne": "केही हदसम्म महत्त्वपूर्ण",
+                "value": 2
+            },
+            {
+                "en": "Important",
+                "ne": "महत्त्वपूर्ण",
+                "value": 5
+            },
+            {
+                "en": "Very important",
+                "ne": "धेरै महत्त्वपूर्ण",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "question_en": "Would you accept your partner having close friendships with the opposite sex?",
+        "question_ne": "के तपाईं आफ्नो साथीको विपरीत लिङ्गसँग नजिकको मित्रता स्वीकार गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "No, never",
+                "ne": "होइन, कहिल्यै होइन",
+                "value": 0
+            },
+            {
+                "en": "Rarely",
+                "ne": "धेरै कम",
+                "value": 2
+            },
+            {
+                "en": "Sometimes, with trust",
+                "ne": "कहिलेकाहीं, विश्वाससाथ",
+                "value": 5
+            },
+            {
+                "en": "Yes, fully comfortable",
+                "ne": "हो, पूर्ण रूपमा सहज",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "question_en": "How do you prefer to spend quality time with your partner?",
+        "question_ne": "तपाईं आफ्नो साथी संग गुणस्तरीय समय कसरी बिताउन मन पराउनुहुन्छ?",
+        "options": [
+            {
+                "en": "Going out for dinner or movies",
+                "ne": "खानामा वा चलचित्र हेर्न जानु",
+                "value": 0
+            },
+            {
+                "en": "Talking and sharing thoughts",
+                "ne": "कुरा गर्ने र विचार साझा गर्ने",
+                "value": 2
+            },
+            {
+                "en": "Doing activities or hobbies together",
+                "ne": "संगै गतिविधि वा रुचिहरू गर्ने",
+                "value": 5
+            },
+            {
+                "en": "Simply being together without distractions",
+                "ne": "बाधा बिना सँगै बस्नु",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "question_en": "What role does physical appearance play in your attraction?",
+        "question_ne": "तपाईंको आकर्षणमा शारीरिक स्वरूपले कस्तो भूमिका खेल्छ?",
+        "options": [
+            {
+                "en": "No role at all",
+                "ne": "कुनै भूमिका छैन",
+                "value": 0
+            },
+            {
+                "en": "Minor role",
+                "ne": "सानो भूमिका",
+                "value": 2
+            },
+            {
+                "en": "Important role",
+                "ne": "महत्त्वपूर्ण भूमिका",
+                "value": 5
+            },
+            {
+                "en": "Very important role",
+                "ne": "धेरै महत्त्वपूर्ण भूमिका",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "question_en": "How important is humor and fun in your relationship?",
+        "question_ne": "तपाईंको सम्बन्धमा हाँसो र रमाइलो कति महत्त्वपूर्ण छ?",
+        "options": [
+            {
+                "en": "Not important",
+                "ne": "महत्त्वपूर्ण छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat important",
+                "ne": "केही हदसम्म महत्त्वपूर्ण",
+                "value": 2
+            },
+            {
+                "en": "Important",
+                "ne": "महत्त्वपूर्ण",
+                "value": 5
+            },
+            {
+                "en": "Very important",
+                "ne": "धेरै महत्त्वपूर्ण",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "question_en": "Would you relocate for your partner’s career?",
+        "question_ne": "के तपाईं आफ्नो साथीको करियरका लागि सर्न तयार हुनुहुन्छ?",
+        "options": [
+            {
+                "en": "No, I would not",
+                "ne": "होइन, म जान्न चाहन्न",
+                "value": 0
+            },
+            {
+                "en": "Maybe, depending on circumstances",
+                "ne": "सायद, परिस्थितिमा निर्भर",
+                "value": 2
+            },
+            {
+                "en": "Yes, if it benefits us both",
+                "ne": "हो, यदि दुवैलाई फाइदा हुन्छ भने",
+                "value": 5
+            },
+            {
+                "en": "Definitely yes",
+                "ne": "पक्कै पनि हो",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "question_en": "How do you handle jealousy in a relationship?",
+        "question_ne": "सम्बन्धमा ईर्ष्या कसरी व्यवस्थापन गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Ignore it",
+                "ne": "अवहेलना गर्ने",
+                "value": 0
+            },
+            {
+                "en": "Get upset often",
+                "ne": "धेरै पटक रिसाउने",
+                "value": 2
+            },
+            {
+                "en": "Talk openly about it",
+                "ne": "खुला रूपमा कुरा गर्ने",
+                "value": 5
+            },
+            {
+                "en": "Work through it together",
+                "ne": "संगै समाधान गर्ने",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "question_en": "Do you believe couples should share all their personal details?",
+        "question_ne": "के तपाईं विश्वास गर्नुहुन्छ जोडीहरूले सबै व्यक्तिगत विवरण साझा गर्नुपर्छ?",
+        "options": [
+            {
+                "en": "No, privacy is important",
+                "ne": "होइन, निजता महत्त्वपूर्ण छ",
+                "value": 0
+            },
+            {
+                "en": "Some things can remain private",
+                "ne": "केही कुरा निजी राख्न सकिन्छ",
+                "value": 2
+            },
+            {
+                "en": "Mostly yes",
+                "ne": "प्राय: हो",
+                "value": 5
+            },
+            {
+                "en": "Yes, complete transparency",
+                "ne": "हो, पूर्ण पारदर्शिता",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "question_en": "How do you view the role of family in your relationship?",
+        "question_ne": "तपाईं आफ्नो सम्बन्धमा परिवारको भूमिका कस्तो हेर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Family should have little involvement",
+                "ne": "परिवारले थोरै मात्र संलग्न हुनु पर्छ",
+                "value": 0
+            },
+            {
+                "en": "Family involvement is sometimes helpful",
+                "ne": "परिवारको संलग्नता कहिलेकाहीं उपयोगी छ",
+                "value": 2
+            },
+            {
+                "en": "Family plays an important role",
+                "ne": "परिवार महत्त्वपूर्ण भूमिका खेल्छ",
+                "value": 5
+            },
+            {
+                "en": "Family is central to the relationship",
+                "ne": "परिवार सम्बन्धको केन्द्र हो",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "question_en": "Would you prioritize your partner’s happiness over your own?",
+        "question_ne": "के तपाईं आफ्नो खुशी भन्दा साथीको खुशीलाई प्राथमिकता दिनुहुन्छ?",
+        "options": [
+            {
+                "en": "Never",
+                "ne": "कहिल्यै होइन",
+                "value": 0
+            },
+            {
+                "en": "Rarely",
+                "ne": "धेरै कम",
+                "value": 2
+            },
+            {
+                "en": "Sometimes",
+                "ne": "कहिलेकाहीं",
+                "value": 5
+            },
+            {
+                "en": "Almost always",
+                "ne": "लगभग सधैं",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "question_en": "How comfortable are you discussing finances with your partner?",
+        "question_ne": "तपाईं आफ्नो साथी संग आर्थिक विषयमा कुरा गर्न कति सहज महसुस गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Not comfortable",
+                "ne": "सहज छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat comfortable",
+                "ne": "केही हदसम्म सहज",
+                "value": 2
+            },
+            {
+                "en": "Comfortable",
+                "ne": "सहज",
+                "value": 5
+            },
+            {
+                "en": "Very comfortable",
+                "ne": "धेरै सहज",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "question_en": "Would you compromise your career goals for the relationship?",
+        "question_ne": "के तपाईं सम्बन्धका लागि आफ्नो करियर लक्ष्यमा सम्झौता गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "No, never",
+                "ne": "होइन, कहिल्यै होइन",
+                "value": 0
+            },
+            {
+                "en": "Maybe in some cases",
+                "ne": "कहिलेकाहीं केही अवस्थामा",
+                "value": 2
+            },
+            {
+                "en": "Yes, if necessary",
+                "ne": "हो, आवश्यक भएमा",
+                "value": 5
+            },
+            {
+                "en": "Definitely yes",
+                "ne": "पक्कै पनि हो",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "header": {
+      "en": "Section 7: Self-Image, Control & Personal Compass",  
+      "ne": "खण्ड ७: आत्म-छवि, नियन्त्रण र व्यक्तिगत कम्पास"
+    }
+    },
+    {
+        "id": 41,
+        "question_en": "How do you prefer to resolve conflicts in your relationship?",
+        "question_ne": "तपाईं आफ्नो सम्बन्धमा झगडा कसरी समाधान गर्न मन पराउनुहुन्छ?",
+        "options": [
+            {
+                "en": "Avoid conflict altogether",
+                "ne": "झगडा टाढा राख्ने",
+                "value": 0
+            },
+            {
+                "en": "Argue until one wins",
+                "ne": "एकले जितेसम्म बहस गर्ने",
+                "value": 2
+            },
+            {
+                "en": "Discuss calmly to find solution",
+                "ne": "शान्त भएर समाधान खोज्ने",
+                "value": 5
+            },
+            {
+                "en": "Work together until fully resolved",
+                "ne": "संपूर्ण रूपमा समाधान नभएसम्म मिलेर काम गर्ने",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "question_en": "How important is trust in your relationship?",
+        "question_ne": "तपाईंको सम्बन्धमा विश्वास कति महत्त्वपूर्ण छ?",
+        "options": [
+            {
+                "en": "Not important",
+                "ne": "महत्त्वपूर्ण छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat important",
+                "ne": "केही हदसम्म महत्त्वपूर्ण",
+                "value": 2
+            },
+            {
+                "en": "Important",
+                "ne": "महत्त्वपूर्ण",
+                "value": 5
+            },
+            {
+                "en": "Absolutely essential",
+                "ne": "पूर्ण रूपमा आवश्यक",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "question_en": "How do you express love to your partner?",
+        "question_ne": "तपाईं आफ्नो साथीलाई माया कसरी व्यक्त गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Through words",
+                "ne": "शब्दहरू मार्फत",
+                "value": 0
+            },
+            {
+                "en": "Through actions",
+                "ne": "कार्यहरू मार्फत",
+                "value": 2
+            },
+            {
+                "en": "Through gifts",
+                "ne": "उपहारहरू मार्फत",
+                "value": 5
+            },
+            {
+                "en": "All of the above",
+                "ne": "माथिका सबै",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "question_en": "How often do you think about your partner during the day?",
+        "question_ne": "तपाईं दिनभरि आफ्नो साथीलाई कति पटक सम्झनुहुन्छ?",
+        "options": [
+            {
+                "en": "Rarely",
+                "ne": "धेरै कम",
+                "value": 0
+            },
+            {
+                "en": "Sometimes",
+                "ne": "कहिलेकाहीं",
+                "value": 2
+            },
+            {
+                "en": "Often",
+                "ne": "प्रायः",
+                "value": 5
+            },
+            {
+                "en": "Almost all the time",
+                "ne": "लगभग सधैं",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "question_en": "How comfortable are you sharing your feelings with your partner?",
+        "question_ne": "तपाईं आफ्नो साथीलाई आफ्नो भावना कति सहज रूपमा साझा गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Not comfortable",
+                "ne": "सहज छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat comfortable",
+                "ne": "केही हदसम्म सहज",
+                "value": 2
+            },
+            {
+                "en": "Comfortable",
+                "ne": "सहज",
+                "value": 5
+            },
+            {
+                "en": "Very comfortable",
+                "ne": "धेरै सहज",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "question_en": "Would you forgive your partner’s mistake easily?",
+        "question_ne": "के तपाईं आफ्नो साथीको गल्ती सजिलै माफ गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "No",
+                "ne": "होइन",
+                "value": 0
+            },
+            {
+                "en": "Sometimes",
+                "ne": "कहिलेकाहीं",
+                "value": 2
+            },
+            {
+                "en": "Most times",
+                "ne": "धेरै पटक",
+                "value": 5
+            },
+            {
+                "en": "Always",
+                "ne": "सधैं",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "question_en": "How important is shared responsibility in your relationship?",
+        "question_ne": "तपाईंको सम्बन्धमा साझा जिम्मेवारी कति महत्त्वपूर्ण छ?",
+        "options": [
+            {
+                "en": "Not important",
+                "ne": "महत्त्वपूर्ण छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat important",
+                "ne": "केही हदसम्म महत्त्वपूर्ण",
+                "value": 2
+            },
+            {
+                "en": "Important",
+                "ne": "महत्त्वपूर्ण",
+                "value": 5
+            },
+            {
+                "en": "Very important",
+                "ne": "धेरै महत्त्वपूर्ण",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "question_en": "How often do you plan activities together with your partner?",
+        "question_ne": "तपाईं आफ्नो साथी संग कति पटक गतिविधिहरू योजना गर्नुहुन्छ?",
+        "options": [
+            {
+                "en": "Never",
+                "ne": "कहिल्यै होइन",
+                "value": 0
+            },
+            {
+                "en": "Rarely",
+                "ne": "धेरै कम",
+                "value": 2
+            },
+            {
+                "en": "Sometimes",
+                "ne": "कहिलेकाहीं",
+                "value": 5
+            },
+            {
+                "en": "Often",
+                "ne": "प्रायः",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "question_en": "How do you prefer to celebrate special occasions with your partner?",
+        "question_ne": "तपाईं आफ्नो साथी संग विशेष अवसरहरू कसरी मनाउन मन पराउनुहुन्छ?",
+        "options": [
+            {
+                "en": "Quiet at home",
+                "ne": "घरमा शान्तिपूर्वक",
+                "value": 0
+            },
+            {
+                "en": "With close friends and family",
+                "ne": "नजिकका साथी र परिवार संग",
+                "value": 2
+            },
+            {
+                "en": "Going out to special places",
+                "ne": "विशेष ठाउँमा जानु",
+                "value": 5
+            },
+            {
+                "en": "Big celebrations and parties",
+                "ne": "ठूलो उत्सव र पार्टीहरू",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "question_en": "How important is communication in maintaining your relationship?",
+        "question_ne": "तपाईंको सम्बन्ध कायम राख्नमा सञ्चार कति महत्त्वपूर्ण छ?",
+        "options": [
+            {
+                "en": "Not important",
+                "ne": "महत्त्वपूर्ण छैन",
+                "value": 0
+            },
+            {
+                "en": "Somewhat important",
+                "ne": "केही हदसम्म महत्त्वपूर्ण",
+                "value": 2
+            },
+            {
+                "en": "Important",
+                "ne": "महत्त्वपूर्ण",
+                "value": 5
+            },
+            {
+                "en": "Absolutely essential",
+                "ne": "पूर्ण रूपमा आवश्यक",
+                "value": 10
+            }
+        ]
+    }
+]
