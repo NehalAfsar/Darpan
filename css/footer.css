@@ -1,0 +1,122 @@
+:root {
+  --top-color: linear-gradient(135deg, #357c7b, #2a6261);
+  --bottom-color: linear-gradient(135deg, #00898C, #006B6A);
+  --primary-color: #FFF9D2;
+}
+
+
+.site-footer {
+      background: var(--top-color);
+      color: white;
+      padding: 2rem;
+      height: 430px;
+    }
+
+    .footer-container {
+      max-width: 80rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+
+    .footer-column {
+      width: 100%;
+    }
+
+    .footer-heading {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .contact-phone {
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .social-icon-link img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+    }
+
+    .footer-nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-nav-link {
+      color: white;
+    }
+
+    .footer-nav-link:hover {
+      text-decoration: underline;
+    }
+
+    .footer-copyright-text {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      text-align: right;
+    }
+
+    .footer-rights-text {
+      margin-top: 1rem;
+    }
+
+    @media (min-width: 640px) {
+      .site-footer {
+        padding: 3rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .footer-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+      }
+
+      .footer-column {
+        width: calc(100% / 3);
+      }
+
+      .footer-column:nth-child(2),
+      .footer-column:nth-child(3) {
+        margin-top: 0;
+      }
+
+      .footer-copyright-text {
+        text-align: left;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .disclaimer-section-container {
+        flex-direction: row;
+        gap: 4rem;
+      }
+
+      .disclaimer-text-content,
+      .disclaimer-image-wrapper {
+        width: 50%;
+      }
+
+      .site-footer {
+        padding: 4rem;
+        height: 270px;
+      }
+    }

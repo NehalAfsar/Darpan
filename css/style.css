@@ -1,0 +1,701 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --top-color: linear-gradient(135deg, #357c7b, #2a6261);
+  --bottom-color: linear-gradient(135deg, #00898C, #006B6A);
+  --primary-color: #FFF9D2;
+}
+
+.glow{
+   text-shadow:
+    0 0 5px #48c785, 0 0 10px #0cb38f;
+}
+@keyframes aglow {
+  100% {
+    text-shadow:
+    0 0 5px #48c785, 0 0 10px #0cb38f,
+    0 0 20px #08b37a, 0 0 40px #04bd6d;
+  }
+}
+ 
+/* (C) ATTACH ANIMATION */
+.aglow {
+  animation: aglow 1s infinite alternate;
+}
+
+section {
+  /* padding: 4rem 2rem; */
+  /* max-width: 1200px; */
+  margin: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Smooth scrolling for anchor links */
+}
+
+body {
+  /* Equivalent to p-4 */
+  background-color: var(--primary-color);
+  /* Light yellow background */
+
+  box-sizing: border-box;
+  /* Include padding in element's total width and height */
+}
+
+
+/* navbar */
+:root {
+  --top-color: linear-gradient(135deg, #357c7b, #2a6261);
+  --bottom-color: linear-gradient(135deg, #00898C, #006B6A);
+  --primary-color: #FFF9D2;
+}
+
+
+/* The main top section (header) of the page */
+header {
+    /* Background color has a slanted blend of two greenish-blue shades */
+    background: linear-gradient(135deg, #357c7b, #2a6261);
+
+    /* Text color is white */
+    color: white;
+
+    /* Adds space inside the header (top-bottom: 15px, left-right: 30px) */
+    padding: 15px 30px;
+
+    /* Makes items inside the header appear in a row */
+    display: flex;
+
+    /* Vertically centers items like logo and links */
+    align-items: center;
+
+    /* Puts space between logo on left and menu on right */
+    justify-content: space-between;
+
+    /* Adds a soft shadow below the header */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Sticks the header to the top of the page */
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+
+    height: 10vh;
+    
+
+}
+
+header strong {
+    color: white;
+}
+
+/* The navigation links (like Home, About, etc.) */
+.nav-links {
+    /* Arranges the links in a row */
+    display: flex;
+
+    /* Adds space (25px) between each link */
+    gap: 25px;
+}
+
+/* Styling each navigation link */
+.nav-links a {
+    /* Makes link text white */
+    color: white;
+
+    /* Makes text bold */
+    font-weight: bold;
+
+    /* Removes underline from links */
+    text-decoration: none;
+
+    /* Adds smooth animation when hovered */
+    transition: all 0.3s ease;
+
+    /* Adds space inside each link button */
+    padding: 5px 10px;
+
+    /* Rounds the corners slightly */
+    border-radius: 4px;
+}
+
+/* What happens when you hover (move mouse) over a link */
+.nav-links a:hover {
+    /* Adds a light see-through background on hover */
+    background: rgba(255, 255, 255, 0.2);
+
+    /* Makes the link move slightly upwards for a fun effect */
+    transform: translateY(-2px);
+}
+
+/* The logo section (image + text) */
+.logo {
+    /* Arranges logo image and text in a row */
+    display: flex;
+
+    /* Vertically centers them */
+    align-items: center;
+
+    /* Adds space between image and text */
+    gap: 12px;
+}
+
+/* The logo image */
+.logo img {
+    /* Sets the height of the logo image */
+    height: 45px;
+
+    /* Adds a slight shadow to the logo image */
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+/* The bold text part of the logo */
+.logo strong {
+    /* Makes the text a bit bigger */
+    font-size: 22px;
+
+    /* Adds tiny spacing between letters */
+    letter-spacing: 0.5px;
+
+    /* Adds a soft shadow to the text */
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* The menu icon shown on small screens (like a hamburger menu) */
+.menu-toggle {
+    /* Hidden by default (on big screens) */
+    display: none;
+
+    /* Makes the icon larger */
+    font-size: 1.8rem;
+
+    /* No background color */
+    background: none;
+
+    /* No border around the icon */
+    border: none;
+
+    /* Makes the icon white */
+    color: white;
+
+    /* Changes cursor to hand pointer */
+    cursor: pointer;
+}
+
+/* Styles for smaller screens (like phones or tablets) */
+@media (max-width: 768px) {
+    /* Show the menu icon on small screens */
+    .menu-toggle {
+        display: block;
+    }
+    
+    /* Hide the links on small screens unless opened */
+    .nav-links {
+        display: none;
+        
+        /* Arrange links vertically */
+        flex-direction: column;
+        
+        /* Position them below the header */
+        position: absolute;
+        top: 60px;
+        right: 0;
+        
+        /* Same background as header */
+        background: linear-gradient(80deg, #357c7b, #2a6261);
+        
+        /* Make it stretch across the full screen */
+        width: 100%;
+        
+        /* Add space inside the menu box */
+        padding: 20px;
+        
+        /* Adds a shadow below the dropdown */
+        /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+        
+        /* Center the links */
+        text-align: center;
+        
+        /* Ensures it appears on top of everything else */
+        z-index: 1000;
+    }
+    
+    /* When the menu is opened (active), show the links */
+    .nav-links.active {
+        display: flex;
+        position: fixed;
+        top:10%;
+    }
+}
+
+
+#about, #test, #disclaimer{
+  padding-top: 90px;
+}
+#article{
+  padding-top: 50px;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/collage.png') center/cover no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+
+.about {
+  display: flex;
+  padding: 10px;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.about video,
+.about img {
+  max-width: 50%;
+  border-radius: 12px;
+  flex: 1;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+
+  .about video,
+  .about img {
+    max-width: 90%;
+  }
+}
+
+
+
+/* Test button */
+
+.cta {
+  text-align: center;
+  padding: 2rem;
+  background: #fff3e0;
+}
+
+.cta button {
+  background: #ff1744;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta button:hover {
+  background: #d50000;
+}
+
+.cta button {
+  background: #ff1744;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta button:hover {
+  background: #d50000;
+}
+
+
+/* Article Section */
+.article-container {
+  max-width: 1280px;
+  /* Equivalent to max-w-7xl */
+  width: 100%;
+  margin: 0 auto;
+  /* Equivalent to mx-auto */
+  padding: 0px 30px;
+  margin-bottom: 50px;
+}
+
+/* Article Title */
+.article-title {
+  text-align: center;
+  margin: 40px 0 30px;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  color: #2a6261;
+  text-decoration: underline;
+}
+
+/* Cards Grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* Responsive grid */
+  gap: 24px;
+  /* Equivalent to gap-6 */
+}
+
+/* Card Styling */
+.card {
+  background-color: #c9f5ef;
+  border-radius: 8px;
+  /* Equivalent to rounded-lg */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  /* Equivalent to shadow-xl */
+  padding: 24px;
+  /* Equivalent to p-6 */
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  /* Needed for pseudo-element positioning and overflow */
+  overflow: hidden;
+  /* Ensures glow and fill don't spill out too much */
+}
+
+/* Card Image */
+.card-image {
+  background-color: white;
+  /* Existing styles from the original file */
+  object-fit: cover;
+  /* Ensures the image covers the area without distortion */
+  border-radius: 8px;
+  /* Rounded corners for rectangular images */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  /* Equivalent to shadow-md */
+  padding: 9px;
+  /* Equivalent to p-2 */
+  margin: 0 auto 16px auto;
+  /* Centers the image and adds mb-4 (16px) margin-bottom */
+  display: block;
+  /* Ensures margin: auto works for horizontal centering */
+  position: relative;
+  /* Ensures it stays above the new fill effect */
+  z-index: 2;
+  /* Ensures it stays above the new fill effect */
+  width: 200px;
+  /* Ensures the image takes full width of the card */
+  height: 150px;
+  /* Fixed height for consistency */
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.25rem;
+  /* Equivalent to text-xl */
+  font-weight: 600;
+  /* Equivalent to font-semibold */
+  color: #1f372d;
+  /* Equivalent to text-gray-800 */
+  margin-bottom: 8px;
+  /* Equivalent to mb-2 */
+  position: relative;
+  /* Ensures it stays above the new fill effect */
+  z-index: 2;
+  /* Ensures it stays above the new fill effect */
+  transition: color 0.3s ease-in-out;
+  /* Smooth transition for text color */
+}
+
+/* Card Paragraph */
+.card-description {
+  font-size: 0.875rem;
+  /* Equivalent to text-sm */
+  color: #4b5563;
+  /* Equivalent to text-gray-600 */
+  line-height: 1.625;
+  /* Equivalent to leading-relaxed */
+  /* Added for new hover effect */
+  position: relative;
+  /* Ensures it stays above the new fill effect */
+  z-index: 2;
+  /* Ensures it stays above the new fill effect */
+  transition: color 0.3s ease-in-out;
+  /* Smooth transition for text color */
+}
+
+/* Hover Glow Effect (existing) */
+.card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0) 70%);
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  /* Allows clicks to pass through pseudo-element */
+  /* Added for new hover effect */
+  z-index: 3;
+  /* Ensures glow is on top of everything */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  /* Slight lift on hover */
+  box-shadow: 0 0 20px rgba(91, 223, 212, 0.774), 0 0 40px rgba(3, 6, 8, 0.4);
+  /* Blue glow */
+  z-index: 10;
+  /* Bring hovered card to front slightly */
+}
+
+.card:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* NEW HOVER EFFECT: Dark color fill from bottom to top, text turns white */
+.card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00898C;
+  /* A dark shade, e.g., similar to gray-900 */
+  transform: scaleY(0);
+  /* Start with 0 height, effectively hidden */
+  transform-origin: bottom;
+  /* Animation starts from the bottom */
+  transition: transform 0.3s ease-in-out;
+  /* Smooth transition for fill */
+  z-index: 1;
+  /* Place below content but above card's initial background */
+  border-radius: 8px;
+  /* Match card border-radius */
+}
+
+.card:hover::after {
+  transform: scaleY(1);
+  /* Expand to full height on hover */
+}
+
+.card:hover .card-title,
+.card:hover .card-description {
+  color: #ffffff;
+  /* White text color on hover */
+}
+
+/* Responsive adjustments */
+@media (min-width: 640px) {
+
+  /* Equivalent to sm: */
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+
+  /* Equivalent to lg: */
+  .cards-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+
+  /* Equivalent to xl: */
+  .cards-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+/* Graph Section */
+.graph-section {
+  padding: 40px 20px;
+}
+
+
+/* Disclaimer Section */
+.disclaimer-section-container {
+  background-color: #FFFBEF;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  gap: 2rem;
+  margin-bottom: 30px;
+}
+
+.disclaimer-text-content {
+  color: #374151;
+  font-size: 0.875rem;
+  line-height: 1.625;
+  width: 100%;
+}
+
+.disclaimer-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.disclaimer-paragraph-text {
+  margin-bottom: 1rem;
+}
+
+.disclaimer-image-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.disclaimer-illustration {
+  width: 70%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+
+/* Footer Section */
+
+.site-footer {
+  background: var(--top-color);
+  color: white;
+  padding: 2rem;
+}
+
+.footer-container {
+  max-width: 80rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer-column {
+  width: 100%;
+}
+
+.footer-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contact-phone {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icon-link img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.footer-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav-link {
+  color: white;
+}
+
+.footer-nav-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright-text {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: right;
+}
+
+.footer-rights-text {
+  margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .site-footer {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+
+  .footer-column {
+    width: calc(100% / 3);
+  }
+
+  .footer-column:nth-child(2),
+  .footer-column:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .footer-copyright-text {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .disclaimer-section-container {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .disclaimer-text-content,
+  .disclaimer-image-wrapper {
+    width: 50%;
+  }
+
+  .site-footer {
+    padding: 4rem;
+  }
+}

@@ -1,0 +1,151 @@
+h2.title {
+      text-align: center;
+      margin: 40px 0 30px;
+      font-size: 28px;
+      font-weight: 600;
+      position: relative;
+      color: #2a6261;
+    }
+    h2.title::before, h2.title::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 120px;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, #2a6261, transparent);
+    }
+    h2.title::before { left: 10%; }
+    h2.title::after { right: 10%; }
+
+    .graph-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .graph-card {
+      background: white;
+      border-radius: 20px;
+      width: 160px;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin: 0 auto;
+      border: 2px solid transparent;
+    }
+    .graph-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+      border-color: #357c7b;
+    }
+    .graph-card img {
+      width: 65px;
+      height: 65px;
+      margin-bottom: 12px;
+      transition: transform 0.3s ease;
+    }
+    .graph-card:hover img {
+      transform: scale(1.1);
+    }
+    .graph-card div {
+      font-weight: 600;
+      font-size: 18px;
+      color: #2a6261;
+    }
+    .buttons {
+      text-align: center;
+      margin: 50px 0 30px;
+    }
+    .buttons button {
+      padding: 12px 24px;
+      margin: 0 8px;
+      background: linear-gradient(to bottom, #4a9e9d, #357c7b);
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      color: white;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+      min-width: 100px;
+    }
+    .buttons button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      background: linear-gradient(to bottom, #5ab0af, #438b8a);
+    }
+    .buttons button:active {
+      transform: translateY(1px);
+    }
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.7);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .modal-content {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      width: 85%;
+      max-width: 800px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+      position: relative;
+    }
+    .modal-close {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 28px;
+      color: #555;
+      transition: all 0.2s ease;
+    }
+    .modal-close:hover {
+      color: #e74c3c;
+      transform: scale(1.2);
+    }
+    .chart-container {
+      height: 400px;
+      margin-top: 20px;
+    }
+    .instructions {
+      text-align: center;
+      margin: 20px 0 30px;
+      color: #357c7b;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    @media (max-width: 768px) {
+      .graph-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 20px;
+      }
+      .buttons {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 10px 0;
+      }
+      .buttons button {
+        padding: 10px 18px;
+        margin: 0 5px;
+        min-width: 85px;
+      }
+    }

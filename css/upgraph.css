@@ -1,0 +1,151 @@
+.graph-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.graph-intro {
+  padding: 30px 20px 15px;
+}
+
+.graph-intro h1 {
+  color: #2a6261;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.graph-intro p {
+  color: #555;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.graph-buttons {
+  margin: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.graph-buttons button {
+  padding: 10px 20px;
+  background: #357c7b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.graph-buttons button:hover {
+  background: #2a6261;
+  transform: translateY(-2px);
+}
+
+.graph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 0px 50px;
+}
+
+.graph-card {
+  padding: 10px;
+  cursor: pointer;
+  background: white;
+    border-radius: 20px;
+      transition: all 0.3s ease;
+
+
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.graph-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+      border-color: #357c7b;
+    }
+
+.graph-card img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.graph-card .card-title {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+    
+
+.graph-modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.graph-modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 90%;
+  width: 95%;
+  text-align: center;
+}
+
+.graph-modal-content img {
+  max-width: 100%;
+  max-height: 60vh;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  margin-top: 15px;
+}
+
+.graph-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+  transition: 0.2s;
+}
+
+.graph-close-btn:hover {
+  color: #333;
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .graph-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .graph-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .graph-modal-content {
+    width: 85%;
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .graph-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
